@@ -1,0 +1,799 @@
+/*******************************/
+/*========= SECTIONS =========*/
+/*****************************/
+.text-orange
+	color: $fourthColor !important
+
+.with-blackdots-line
+	&::after
+		content: ''
+		background: url(../images/bg-dots-black.svg)
+		width: 100%
+		height: 2px
+		position: absolute
+		left: 0
+		bottom: -2px
+		z-index: 5
+
+.inside-banner
+		overflow: hidden
+		line-height: 0
+		img
+			width: 250%
+			max-width: none
+			position: relative
+			left: 50%
+			+align-center
+
+.inside-header
+	padding: 30px 0
+	position: relative
+	margin-bottom: 40px
+
+.bread-crumbs
+	margin-bottom: 5px
+	li
+		font-family: $altFont
+		font-size: 1.6em
+		color: #000000
+		margin-bottom: 5px
+		+flex($df: inline-flex, $ai: center)
+	a,
+	span
+		font-family: $baseFont
+		color: currentColor
+		+ttion
+		&:hover
+			color: $lightGreen
+	i
+		display: inline-block
+		margin: 0 3px
+
+.multicolor-line
+	margin: 15px 0 0
+	border: none
+	height: 25px
+	background: url(../images/bg-stripe.jpg) center center
+
+.history-wrap_01
+	background: url(../images/bg-planta-arroz.jpg) no-repeat right top/95%
+	position: relative
+	margin-bottom: 30px
+	padding-bottom: 30px
+
+.history-wrap_02
+	background: url(../images/bg-historia.jpg) no-repeat center top/cover
+	background-origin: content-box
+	position: relative
+	padding-bottom: 30px
+	margin-bottom: 80px
+	.container
+		padding-top: 70px
+		padding-bottom: 70px
+	.transparent-box
+		overflow: hidden
+		p
+			font-size: 2em
+		&:first-of-type
+			margin-bottom: 30px
+		img
+			width: 125px
+			float: right
+
+.transparent-box
+	background-color: rgba(#fff, 0.5)
+	border: solid 1px #b0b0b0
+	padding: 20px
+	p
+		font-size: 1.6em
+		line-height: 1.4
+		&:first-of-type
+			margin-top: 0
+		strong
+			font-weight: normal
+			font-family: $altFont
+
+.green-wrapper
+	background-color: $lightGreen
+	color: #FFFFFF
+	.container
+		padding-top: 1px
+		padding-bottom: 1px
+	p,
+	h2
+		font-size: 2em
+		padding: 0 20px
+	h2
+		padding-top: 15px
+		padding-bottom: 15px
+		font-weight: normal
+		font-family: $altFont
+		background-color: rgba(black, 0.2)
+
+.contact-wrapper
+	position: relative
+	padding-bottom: 55px
+	margin-bottom: 60px
+
+.contact-form-wrapper
+	h2
+		font: normal 2em $altFont
+	p
+		font-size: 1.6em
+
+.contact-form
+	margin-top: 40px
+	+flex($ai: flex-start, $jc: flex-end)
+	button,
+	input[type=submit]
+		background-color: $lightGreen
+		border: none
+		color: #FFFFFF
+		font-family: $altFont
+		font-size: 1.6em
+		min-width: 95px
+		line-height: 30px
+		border-radius: 5px
+		cursor: pointer
+
+.form-control
+	width: 100%
+	margin-bottom: 20px
+	+flex($ai: flex-start)
+	label
+		width: 100%
+		margin-bottom: 5px
+		font-size: 1.5em
+		+ttion
+		&.focus
+			opacity: 0.6
+	input,
+	textarea
+		width: 100%
+		height: 40px
+		padding: 1em
+		outline: none
+		font-size: 1.6em
+		border: solid 1px #B0B0B0
+		background-color: #fafafa
+		+ttion
+		&:focus
+			box-shadow: 0 0 5px rgba(black, 0.6)
+		&:invalid,
+		&.error
+			border-color: rgba(red, 0.6)
+			box-shadow: 0 0 5px rgba(red, 0.6)
+	textarea
+		min-height: 160px
+		height: 160px
+		overflow: hidden
+		resize: vertical
+	span
+		flex-grow: 1
+		padding-top: 5px
+		font-size: 1.4em
+		color: rgba(red, 0.6)
+		b
+			font-family: $compFont
+
+.contact-data
+	margin-top: 40px
+	background-color: #000000
+	color: #FFFFFF
+	padding: 15px
+	position: relative
+	&::after
+		content: ''
+		background: url(../images/bg-stripe.jpg) center center no-repeat
+		position: absolute
+		left: 0
+		bottom: -25px
+		height: 25px
+		width: 100%
+		margin: auto
+		z-index: 10
+	h2
+		font: normal 2em $altFont
+		margin-bottom: 60px
+		padding: 0 20px
+	ul
+		padding: 0 20px
+	li
+		font-size: 1.6em
+		margin-bottom: 15px
+		+flex($ai: center)
+		span
+			width: calc(100% - 25px)
+			padding-left: 10px
+		a
+			color: currentColor
+			&:hover
+				color: $lightGreen
+
+.map-box
+	background-color: #323232
+	padding: 10px
+	margin-top: 60px
+	p
+		margin: 0 0 10px
+		font-size: 1.5em
+	iframe
+		border: none
+		width: 100%
+		height: 200px
+		overflow: hidden
+
+.products-list-container
+	margin-bottom: 60px
+	+flex($ai: flex-start, $jc: space-between)
+	&.where-to-buy
+		.product-thumb
+			&::before
+				content: none
+
+.product-thumb
+	width: 100%
+	position: relative
+	&:not(:first-child)
+		margin-top: 40px
+	&::before
+		content: ''
+		background: url(../images/bg-stripe-sm.jpg) no-repeat
+		height: 20px
+		width: 260px
+		position: absolute
+		z-index: 10
+		left: 50%
+		top: 0
+		transform: translate(-50%, -50%)
+	div
+		position: relative
+		line-height: 0
+		border: solid 1.5px #afafaf
+		> img
+			width: 100%
+	a
+		position: absolute
+		width: 40px
+		line-height: 0
+		right: 10px
+		bottom: 10px
+		background-color: rgba($lightGreen, 0.6)
+		border-radius: 50%
+		+ttion
+		&:hover
+			background-color: rgba(black, 0.6) !important
+		&.grains
+			background-color: rgba(darken($fourthColor, 5), 0.7)
+
+	h2
+		background-color: #000000
+		color: #FFFFFF
+		font: normal 1.8em $altFont
+		text-align: center
+		padding: 10px 5px
+		margin: 10px 0 0
+		span
+			font-family: $baseFont
+
+.container
+	&.products-container
+		// overflow: hidden
+		margin-bottom: 60px
+
+.product-wrapper
+	position: relative
+	padding-bottom: 30px // new 27.07.19
+
+.product-image
+	text-align: center
+	position: relative
+	padding-bottom: 30px
+	margin-bottom: 40px
+	&::before
+		content: ''
+		background: url(../images/bg-stripe-sm.jpg) no-repeat
+		height: 20px
+		width: 260px
+		position: absolute
+		z-index: 10
+		left: 50%
+		bottom: 0
+		transform: translate(-50%, -50%)
+
+.product-content
+	position: relative
+	padding-bottom: 30px
+	margin-bottom: 30px
+	+flex($ai: flex-start)
+	img
+		width: 25px
+
+.product-content-text
+		width: calc(100% - 25px)
+		padding-left: 15px
+		*:first-child
+			margin-top: 0
+		p,
+		li
+			font-size: 1.4em
+			line-height: 1.3
+			strong
+				font-weight: normal
+				font-family: $altFont
+				color: $lightGreen
+		h2
+			font-weight: normal
+			font-family: $altFont
+			line-height: 1.8em
+			line-height: 1.2
+		li
+			padding-left: 20px
+			position: relative
+			&:not(:last-of-type)
+				margin-bottom: 10px
+		ul
+			counter-reset: myList
+			li
+				&::before
+					counter-increment: myList
+					content: counter(myList) '.'
+					position: absolute
+					left: 0
+					top: 0
+					font-family: $altFont
+					color: $lightGreen
+			&.grains
+				li
+					&::before
+						color: $fourthColor
+		ol
+			li
+				&::before
+					content: '-'
+					position: absolute
+					left: 0
+
+.back-button
+	display: inline-block
+	font: normal 1.5em $altFont
+	color: #000
+	// float: right
+	i
+		display: inline-block
+		vertical-align: middle
+		width: 45px
+		height: 45px
+		line-height: 40px
+		background-color: $lightGreen
+		background-clip: content-box
+		border-radius: 50%
+		color: #FFFFFF
+		text-align: center
+		font-size: 1.6em
+		overflow: hidden
+		border: solid 1px $lightGreen
+		padding: 3px
+		margin-right: 5px
+		&.grains
+			background-color: $fourthColor
+			border-color: $fourthColor
+
+.nutritional-table
+	border: dotted 2px black
+	padding: 2px
+	border-radius: 3px
+	&.grains
+		.nutritional-table-header
+			background-color: $fourthColor
+		.nutritional-table-row
+			&:nth-of-type(2n)
+				background-color: rgba($fourthColor, 0.3)
+
+.nutritional-table-row
+	+flex
+	&:nth-of-type(2n)
+		background-color: rgba($lightGreen, 0.3)
+		border-top: solid 1px #808081
+		border-bottom: solid 1px #808081
+
+.nutritional-table-header
+	flex-grow: 1
+	background-color: $lightGreen
+	color: #fff
+	font-family: $altFont
+	text-align: center
+	font-size: 1.4em
+	padding: 5px
+
+.nutritional-table-col
+	font-size: 1.3em
+	width: 40%
+	padding: 5px 3px
+	+flex($ai: center)
+	&:not(:first-child)
+		width: 30%
+
+.recipe-wrap
+	display: none
+	.btn-recipe
+		max-width: none
+
+.btn-recipe
+	font-size: 2em
+	width: 100%
+	max-width: 400px
+	background-image: linear-gradient(to right, #DA0000 0%, #F97478 2%, #F97478 3%, #C70003 5%)
+	padding: 10px
+	padding-left: 30px
+	color: #fff
+	border: solid 5px #DA0000
+	position: relative
+	margin: 0 auto 40px
+	line-height: 1.6
+	+flex($ai: center)
+	&::before
+		content: ''
+		width: calc(100% + 5px)
+		height: 100%
+		border: solid 1px #F9DF7B
+		border-left: none
+		position: absolute
+		left: -5px
+		top: 0
+	&:hover
+		background-image: linear-gradient(to right, #F47920 0%, #FAB059 2%, #FAB059 3%, #F47920 5%)
+		border-color: #F47920
+		.icon-recipe
+			background-image: url(../images/icon-recipe-hover.svg)
+	span
+		width: calc(100% - 60px)
+	strong
+		font-family: $compFont
+		font-weight: normal
+	b
+		font-family: $altFont
+		font-weight: normal
+
+.icon-recipe
+	display: inline-block
+	width: 55px
+	height: 55px
+	margin-right: 5px
+	background-image: url(../images/icon-recipe.svg)
+
+.icon-close
+	width: 20px
+	position: absolute
+	right: 10px
+	top: 10px
+
+.recipe-content
+	border: dotted 2px black
+	padding: 15px
+	font-size: 1.5em
+	h2,
+	h3
+		font-family: $altFont
+		font-weight: normal
+		font-size: 1em
+		margin: 0
+	h3
+		color: $fourthColor
+		margin: 0.3em 0
+	i
+		color: $fourthColor
+		font-style: normal
+	p
+		&:last-child
+			margin-bottom: 0
+
+.title-where-to-buy
+	font-size: 1.6em
+	font-weight: normal
+	margin-bottom: 40px
+	font-family: $baseFont
+	+flex($ai: center)
+	img
+		width: 30px
+	span
+		width: calc(100% - 30px)
+		padding-left: 10px
+
+.where-to-buy-bg
+	background: url(../images/bg-donde-comprar.jpg) center center / cover
+	padding: 60px 0 70px
+
+.where-to-buy-content
+	color: #FFFFFF
+	padding: 20px
+	position: relative
+	background-color: rgba(black, 0.9)
+	&::before
+		content: ''
+		background: url(../images/bg-stripe.jpg) center center / cover no-repeat
+		width: 100%
+		height: 25px
+		position: absolute
+		left: 0
+		bottom: 0
+	&.with-blackdots-line
+		&::after
+			bottom: -20px
+	h2
+		margin: 0 0 15px
+		padding-bottom: 10px
+		font: normal 1.8em $altFont
+		border-bottom: dotted 1px
+
+.where-to-buy-list
+	padding-bottom: 10px
+	p
+		font-size: 1.5em
+
+.blog-categories
+	background-color: #000000
+	color: #FFFFFF
+	position: relative
+	padding: 20px 20px 40px
+	&::before
+		content: ''
+		background: url(../images/bg-stripe-sm-2.jpg) center center / cover no-repeat
+		width: 100%
+		height: 20px
+		position: absolute
+		left: 0
+		bottom: 0
+	h2
+		margin: 0
+		font: normal 2em $altFont
+		padding-bottom: 10px
+		position: relative
+		text-transform: uppercase
+		+flex($jc: space-between, $ai: center)
+		&::after
+			content: ''
+			background: url(../images/bg-dots.svg)
+			width: 100%
+			height: 2px
+			position: absolute
+			left: 0
+			bottom: 0
+	ul
+		display: none
+		margin-top: 30px
+	li
+		font-size: 1.6em
+		margin-bottom: 10px
+		&::before
+			content: '> '
+			display: inline-block
+			vertical-align: middle
+			position: relative
+			margin-right: 7px
+			top: -3px
+		a
+			color: currentColor
+			&:hover
+				color: $lightGreen
+
+.blog-post-single
+	margin-top: 40px
+	h2
+		font: normal 1.8em $altFont
+		margin: 0
+
+.blog-post-thumbnail
+	margin: 10px 0
+	img
+		width: 100%
+		max-width: none
+
+.blog-post-single-abstract
+	div
+		h1, h2, h3, h4, h5, h6, p
+			margin: 1em 0
+			font: normal 1.6em/1.3 $baseFont
+	> a
+		display: inline-block
+		padding: 0.5em 1.3em
+		color: #FFFFFF
+		font: normal 1.5em $altFont
+		background-color: $lightGreen
+		border-radius: 6px
+		margin-top: 10px
+
+.blog-post-single-footer
+	margin-top: 30px
+	li
+		display: inline-block
+		vertical-align: middle
+		font-size: 1.3em
+		margin-right: 10px
+		img
+			position: relative
+			margin-right: 5px
+			top: 2px
+
+	div
+		padding: 10px 0
+		margin: 15px 0
+		position: relative
+		&::before,
+		&::after
+			content: ''
+			background: url(../images/bg-dots-black.svg)
+			width: 100%
+			height: 2px
+			position: absolute
+			left: 0
+			top: -2px
+			z-index: 5
+		&::after
+			top: auto
+			bottom: -2px
+		p
+			margin: 0
+			display: inline-block
+			vertical-align: middle
+			font-size: 1.3em
+			color: #545256
+			margin-right: 8px
+			i
+				display: inline-block
+				margin-right: 4px
+		a
+			display: inline-block
+			color: inherit
+			+ttion
+			&:hover
+				transform: scale(1.3)
+
+.pagination
+	margin: 30px 0 80px
+	+flex($ai: center, $jc: center)
+	a, span
+		font: normal 1.6em $baseFont
+		margin: 0 5px
+		color: currentColor
+		&.prev,
+		&.next
+			width: 19px
+			height: 19px
+			background-color: $lightGreen
+			color: #FFFFFF
+			text-align: center
+			border-radius: 50%
+	.page_current
+		font-size: 1.2em
+	.page_disabled
+		opacity: 0.5
+
+.blog-detail
+	margin-bottom: 70px
+	h2
+		font: normal 1.8em $altFont
+		margin: 30px 0 10px
+
+.blog-detail-header
+	margin-bottom: 10px
+	ul
+		+flex($ai: center, $jc: space-between)
+	li
+		font-size: 1.3em
+		img
+			position: relative
+			margin-right: 5px
+			top: 2px
+
+.blog-detail-image
+	img
+		max-width: none
+		width: 100%
+
+.blog-detail-content
+	p, li
+		font-size: 1.6em
+		line-height: 1.4
+	a
+		color: $lightGreen
+		font-family: $altFont
+		&:hover
+			text-decoration: underline
+	b, strong
+		font-weight: normal
+		font-family: $altFont
+	h1, h2, h3, h4, h5, h6
+		font-weight: normal
+		font-family: $altFont
+		font-size: 2em
+	ul, ol
+		padding-left: 30px
+		margin: 30px 0
+	li
+		list-style: disc outside
+		margin-bottom: 10px
+	img
+		width: 90%
+		max-width: none
+		display: block
+		margin: 15px auto
+
+	> a
+		display: inline-block
+		background-color: $lightGreen
+		color: #FFFFFF
+		font-size: 1.6em
+		padding: 0.5em 1.2em
+		border-radius: 6px
+		margin-top: 40px
+		&:hover
+			text-decoration: none
+			cursor: pointer
+
+.comments-wrap
+	margin-bottom: 60px
+	> h2
+		font: normal 2em $compFont
+		margin-top: 0
+
+.comments-message
+	width: 100%
+	margin-bottom: 30px
+	&.error
+		color: rgba(255, 0, 0, 0.6)
+	&.success
+		color: $lightGreen
+	h2
+		font-size: 1.9em
+	p, ul
+		font-size: 1.5em
+
+.comment-list
+	li
+		margin-bottom: 20px
+
+.comment-wrapper
+	+flex($ai: flex-start)
+	img
+		width: 35px
+		border-radius: 50%
+
+.comment-text
+	width: calc(100% - 35px)
+	padding-left: 10px
+	cite
+		font-size: 1.3em
+		color: $lightGreen
+	p
+		font-size: 1.6em
+		line-height: 1.3
+		margin-top: 5px
+
+.under-wrap
+	height: 50vh
+	margin-top: 60px
+	position: relative
+	+flex($fd: column, $jc: center)
+	&::before,
+	&::after
+		content: ''
+		width: 100%
+		height: 20px
+		background: url(../images/bg-stripe.jpg) center center no-repeat
+		position: absolute
+		left: 0
+	&::before
+		top: 0
+	&::after
+		bottom: 0
+	h2
+		margin: 0
+		text-align: center
+		font: normal 8em $altFont
+
+.special-hr
+	position: relative
+	border: none
+	width: 100%
+	margin: 0

@@ -1,0 +1,66 @@
+=clearfix($bool: 'false')
+	@if ($bool == 'true')
+		&::after
+			content: ''
+			display: block
+			clear: both
+	@else
+		&::after
+			content: none
+
+=flex($df: flex, $jc: flex-start, $ai: stretch, $fw: wrap, $fd: row)
+	display: $df
+	justify-content: $jc
+	align-items: $ai
+	flex-wrap: $fw
+	flex-direction: $fd
+
+=ttion($ttime: 300ms)
+	transition: $ttime
+	-webkit-transition: $ttime
+
+=align-center($ejeX: -50%)
+	transform: translateX($ejeX)
+	-ms-transform: translateX($ejeX)
+	-webkit-transform: translateX($ejeX)
+
+=scale-rotate($scale: 1, $rotate: 360deg)
+	transform: scale($scale) rotate($rotate)
+	-ms-transform: scale($scale) rotate($rotate)
+	-webkit-transform: scale($scale) rotate($rotate)
+
+=rotate($rotate)
+	transform: rotate($rotate)
+	-ms-transform: rotate($rotate)
+	-webkit-transform: rotate($rotate)
+
+=b-sh($h-off, $v-off, $blur, $sh-color)
+	box-shadow: $h-off $v-off $blur $sh-color
+
+=spin($spin: 360deg)
+	transform: rotate($spin)
+	-ms-transform: rotate($spin)
+	-webkit-transform: rotate($spin)
+
+=scale($scale: 1)
+	transform: scale($scale)
+	-ms-transform: scale($scale)
+	-webkit-transform: scale($scale)
+
+=bg-path($bg-img: 'none', $bg-repeat: no-repeat, $bg-pos: 0 0)
+	background: url(#{$bg-path}#{$bg-img}) $bg-repeat $bg-pos
+
+=appeareance($appeareance: none)
+	appearance: $appeareance
+	-moz-appearance: $appeareance
+	-webkit-appearance: $appeareance
+
+=titleLine ($color: #000000)
+	&::before
+		content: ''
+		width: 40px
+		height: 3px
+		background-color: $color
+		position: absolute
+		left: 0
+		top: -10px
