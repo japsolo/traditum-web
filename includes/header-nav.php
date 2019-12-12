@@ -17,15 +17,15 @@
 			<li data-link="solutions">
 				<a href="#" class="has-drop">Soluciones</a>
 				<!-- drop-nav -->
-				<ul class="drop-nav">
-					<li><a href="#"><span>Sistema de gestión prestacional</span></a></li>
-					<li><a href="#"><span>Plataforma de validación odontológica</span></a></li>
-					<li><a href="#"><span>Plataforma de internación domiciliaria</span></a></li>
-					<li><a href="#"><span>Sistema activador de recuperos</span></a></li>
+				<ul class="drop-nav" <?= isset($isHome) && $isHome ? 'data-drop="home"' : null ?>>
+					<li><a href="sistema-gestion-prestacional.php"><span>Sistema de gestión prestacional</span></a></li>
+					<li><a href="plataforma-validacion-odontologica.php"><span>Plataforma de validación odontológica</span></a></li>
+					<li><a href="plataforma-internacion-domiciliaria.php"><span>Plataforma de internación domiciliaria</span></a></li>
+					<li><a href="sistema-activador-recuperos.php"><span>Sistema activador de recuperos</span></a></li>
 				</ul>
 			</li>
-			<li><a href="#">Servicios IT</a></li>
-			<li><a href="#" class="link-rounded">Contacto</a></li>
+			<li><a href="#it" class="page-scroll">Servicios IT</a></li>
+			<li><a href="#contact-us" class="link-rounded page-scroll">Contacto</a></li>
 			<li>
 				<a href="https://www.traditum.com/NEO%20TDM%20Canal%20IT/View/Login.aspx" class="link-rounded bg-blue" target="_blank">
 					Ingreso a Prestadores

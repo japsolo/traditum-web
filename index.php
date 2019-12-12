@@ -4,7 +4,7 @@
 ?>
 
 	<!--HEADER-->
-	<?php require_once 'includes/header-nav.php'; ?>
+	<?php $isHome = true; require_once 'includes/header-nav.php'; ?>
 	<!--/HEADER-->
 
 	<!-- VIDEO -->
@@ -120,7 +120,7 @@
 			</article>
 		</section>
 		<!-- /WE-KNOW -->
-		
+
 		<!-- CLIENTS -->
 		<h2 class="section-title">Confían en nosotros</h2>
 		<ul class="clients-logos">
@@ -138,7 +138,7 @@
 	</div>
 
 	<!-- SOLUTIONS -->
-	<div class="solution-wrapper">
+	<div class="solution-wrapper" id="sgp">
 		<div class="solution-box-half-size bg-green">
 			<article class="solution-content">
 				<h2>Sistema de Gestión Prestacional</h2>
@@ -152,7 +152,7 @@
 		</div>
 	</div>
 
-	<div class="solution-wrapper">
+	<div class="solution-wrapper" id="pvo">
 		<div class="solution-box-half-size bg-blue">
 			<article class="solution-content">
 				<h2>Plataforma de validación Odontológica</h2>
@@ -166,7 +166,7 @@
 		</div>
 	</div>
 
-	<div class="solution-wrapper">
+	<div class="solution-wrapper" id="pid">
 		<div class="solution-box-half-size bg-purple">
 			<article class="solution-content">
 				<h2>Plataforma de internación Domiciliaria</h2>
@@ -180,7 +180,7 @@
 		</div>
 	</div>
 
-	<div class="solution-wrapper">
+	<div class="solution-wrapper" id="sar">
 		<div class="solution-box-half-size bg-blue">
 			<article class="solution-content">
 				<h2>SAR / Sistema Activador de Recuperos </h2>
@@ -193,7 +193,7 @@
 		</div>
 	</div>
 	<!-- /SOLUTIONS -->
-	
+
 	<!-- MORE-SOLUTIONS -->
 	<div class="container">
 		<section class="more-solutions">
@@ -228,6 +228,39 @@
 				</div>
 			</article>
 		</section>
+
+		<h2 class="section-title title-with-line-purple" id="it">Especialistas en IT</h2>
+		<section class="it-specialist">
+			<figure class="it-specialist-image">
+				<img src="assets/images/img-home-it-specialist.jpg" alt="Especialistas en IT">
+			</figure>
+			<article class="it-specialist-text">
+				<p>En Traditum contamos con un equipo de profesionales multicloud especializado en las nubes de Microsoft, Google Cloud, Azure, IBM  Cloud, AWS y Huawei Cloud.</p>
+				<p>A lo largo de los años hemos desarrollado un área independiente, capaz de brindar soporte y optimización de infraestructura instalada a diferentes compañías y organismos nacionales e internacionales.</p>
+				<p>Actualmente trabajamos orientando los esfuerzos y metas a optimizar la gestión de procesos de transformación mediante la utilización de herramientas multicloud. Pero también elaborando un diagnóstico y solución a medida de las necesidades de nuestros clientes, respetando sus etapas de desarrollo y crecimiento. </p>
+				<p><b>Nuestro equipo está especializado en múltiples servicios:</b></p>
+			</article>
+			<article class="it-specialist-services">
+				<figure>
+					<img src="assets/images/icons/icon-it-specialist_01.svg" alt="ícono de una pantalla de computadora">
+				</figure>
+				<ul>
+					<li>Administración y soporte de productos RedHat, Google, Microsoft y Cisco.</li>
+					<li>Consultoría IT.</li>
+					<li>Soporte nivel 1, 2, y 3 IT.</li>
+				</ul>
+			</article>
+			<article class="it-specialist-services">
+				<figure>
+					<img src="assets/images/icons/icon-it-specialist_02.svg" alt="ícono de una pantalla de computadora">
+				</figure>
+				<ul>
+					<li>Servicio de guardias IT.</li>
+					<li>Implementación, configuración, administración y soporte de switches 3.</li>
+					<li>Infraestructura y administración de redes.</li>
+				</ul>
+			</article>
+		</section>
 	</div>
 	<!-- /MORE-SOLUTIONS -->
 
@@ -237,22 +270,10 @@
 
 	<!-- ::::::::::: SCRIPTS ::::::::::: -->
 	<?php require_once'includes/scripts.php'; ?>
-	
+
 	<!-- Actual Link -->
 	<script>
 		setActualLink('home');
-	</script>
-
-	<!-- Main-Banner -->
-	<!-- <script src="assets/js/responsiveslides.min.js"></script> -->
-	<script>
-		/* global $ */
-		// $('.main-banner .rslides').responsiveSlides({
-		// 	speed: 1500,
-		// 	timeout: 7000,
-		// 	nav: true,
-		// 	auto: true
-		// });
 	</script>
 
 </body>

@@ -322,7 +322,7 @@ body {
   height: 100vh;
   overflow: hidden;
   background-color: rgba(255, 255, 255, 0.85);
-  transition: 250ms ease-out 250ms; }
+  transition: 250ms ease-out 100ms; }
   .main-nav.show {
     width: 100vw;
     overflow-y: scroll; }
@@ -490,7 +490,7 @@ body {
 /*========= MAIN-CONTENT =========*/
 /*********************************/
 .section-title {
-  font-size: 2.4em;
+  font-size: 2.8em;
   font-weight: normal;
   color: #535353 !important;
   margin-bottom: 1.6em;
@@ -648,7 +648,7 @@ body {
     margin: 1.5em 0; }
 
 .more-solutions {
-  margin: 100px 0 60px;
+  margin: 80px 0;
   overflow: hidden; }
 
 .other-solution {
@@ -693,6 +693,41 @@ body {
     .other-solution-special-box a span {
       display: block;
       font-size: 1.4em; }
+
+.it-specialist {
+  margin: 60px 0; }
+
+.it-specialist-text {
+  font-size: 1.5em;
+  line-height: 1.6;
+  color: #777777; }
+  .it-specialist-text b {
+    color: #A91F8E; }
+
+.it-specialist-services figure {
+  margin: 0 auto 15px;
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  border: solid 2px #B5BE34;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row; }
+  .it-specialist-services figure img {
+    width: 60px; }
+
+.it-specialist-services ul {
+  margin-left: 15px;
+  list-style: outside disc; }
+
+.it-specialist-services li {
+  color: #777777;
+  font-size: 1.5em;
+  line-height: 1.6;
+  padding-left: 0.7em;
+  margin-bottom: 1em; }
 
 /*****************************/
 /*========= FOOTER =========*/
@@ -850,12 +885,19 @@ body {
   100% {
     transform: translateY(0%); } }
 
-#contact-form {
-  margin-top: 40px; }
+.full-contact-form-wrapper {
+  position: relative;
+  padding-top: 110px; }
+  .full-contact-form-wrapper > article {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0; }
 
 .btn-contact-wrap {
-  height: 70px;
-  overflow: hidden; }
+  height: 100px;
+  overflow: hidden;
+  padding-top: 30px; }
 
 .show-contact-form {
   width: 300px;
@@ -877,6 +919,15 @@ body {
   .show-contact-form p {
     margin: 10px 0 0;
     font-size: 1.4em; }
+  .show-contact-form.up {
+    box-shadow: 0 0 10px #A91F8E; }
+
+.contact-form-wrapper {
+  overflow: hidden;
+  background-color: #f4f5f9;
+  height: 0; }
+  .contact-form-wrapper.up {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); }
 
 .contact-form-bg {
   background-color: #f4f5f9;

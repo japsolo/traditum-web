@@ -76,7 +76,7 @@
 	height: 100vh
 	overflow: hidden
 	background-color: rgba(#ffffff, 0.85)
-	transition: 250ms ease-out 250ms
+	transition: 250ms ease-out 100ms
 	&.show
 		width: 100vw
 		overflow-y: scroll
@@ -135,7 +135,7 @@
 		top: 2px
 		margin-left: 8px
 
-				
+
 .drop-nav
 	display: none
 	margin-top: 15px
@@ -205,8 +205,8 @@
 		font-size: 1.5em
 		line-height: 1.5
 		color: #777777
-	
-.icons-links 
+
+.icons-links
 	width: 100%
 	+flex($ai: center)
 	li
@@ -249,7 +249,7 @@
 /*========= MAIN-CONTENT =========*/
 /*********************************/
 .section-title
-	font-size: 2.4em
+	font-size: 2.8em
 	font-weight: normal
 	color: #535353 !important
 	margin-bottom: 1.6em
@@ -268,7 +268,7 @@
 	+titleLine($lightGreen)
 
 .we-know
-	margin: 80px 0 
+	margin: 80px 0
 
 .we-know-list
 	li
@@ -320,7 +320,7 @@
 			position: absolute
 			right: 20px
 			bottom: 10px
-			width: 60px	
+			width: 60px
 
 .we-know-text
 	p
@@ -337,7 +337,7 @@
 	+flex($ai: center, $jc: space-around)
 	li
 		width: 45%
-		
+
 .solution-wrapper
 	margin: 45px 0
 
@@ -379,7 +379,7 @@
 		margin: 1.5em 0
 
 .more-solutions
-	margin: 100px 0 60px
+	margin: 80px 0
 	overflow: hidden
 
 .other-solution
@@ -388,7 +388,7 @@
 		position: relative
 		font: normal 1.8em $compFont
 		margin-bottom: 1.5em
-	
+
 	p
 		font-size: 1.4em
 		line-height: 1.6
@@ -425,6 +425,36 @@
 		span
 			display: block
 			font-size: 1.4em
+
+.it-specialist
+	margin: 60px 0
+
+.it-specialist-text
+	font-size: 1.5em
+	line-height: 1.6
+	color: #777777
+	b
+		color: $darkPurple
+
+.it-specialist-services
+	figure
+		margin: 0 auto 15px
+		width: 120px
+		height: 120px
+		border-radius: 100%
+		border: solid 2px $lightGreen
+		+flex($ai: center, $jc: center)
+		img
+			width: 60px
+	ul
+		margin-left: 15px
+		list-style: outside disc
+	li
+		color: #777777
+		font-size: 1.5em
+		line-height: 1.6
+		padding-left: 0.7em
+		margin-bottom: 1em
 
 
 
@@ -468,7 +498,7 @@
 			font-size: 1.6em
 			font-weight: normal
 			margin: 0
-		p 
+		p
 			font-size: 1.5em
 		&::before
 			content: ''
@@ -566,12 +596,19 @@
 	100%
 		transform: translateY(0%)
 
-#contact-form
-	margin-top: 40px
+.full-contact-form-wrapper
+	position: relative
+	padding-top: 110px
+	> article
+		position: absolute
+		width: 100%
+		left: 0
+		bottom: 0
 
 .btn-contact-wrap
-	height: 70px
+	height: 100px
 	overflow: hidden
+	padding-top: 30px
 
 .show-contact-form
 	width: 300px
@@ -589,6 +626,15 @@
 	p
 		margin: 10px 0 0
 		font-size: 1.4em
+	&.up
+		box-shadow: 0 0 10px $darkPurple
+
+.contact-form-wrapper
+	overflow: hidden
+	background-color: #f4f5f9
+	height: 0
+	&.up
+		box-shadow: 0 0 10px rgba(#000000, 0.3)
 
 .contact-form-bg
 	background-color: #f4f5f9
@@ -622,7 +668,7 @@
 	.btn
 		margin-top: 40px
 
-.form-group 
+.form-group
 	margin: 15px 0
 	width: 100%
 
