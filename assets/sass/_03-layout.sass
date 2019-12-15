@@ -207,6 +207,9 @@
 	background: url(../images/bg-video.jpg) center center / cover no-repeat
 	background-origin: content-box
 
+.home-video
+	display: none
+
 .home-banner
 	max-width: #{$baseWidth}px
 	padding: 15px 15px 40px
@@ -214,6 +217,8 @@
 	margin: auto
 	+flex($ai: flex-start)
 	align-content: flex-end
+	position: relative
+	z-index: 100
 	h1
 		font-weight: normal
 		font-size: 2.6em
@@ -485,6 +490,56 @@
 		line-height: 1.6
 		padding-left: 0.7em
 		margin-bottom: 1em
+
+.overlay
+	position: fixed
+	z-index: -1000
+	width: 100vw
+	height: 100vh
+	left: 0
+	top: 0
+	background-color: rgba(black, 0.7)
+	+flex($ai: center, $jc: center)
+	opacity: 0
+	transition: opacity 320ms
+	transform: scale(0)
+	&.show
+		opacity: 1
+		transform: scale(1)
+		z-index: 2000
+		.overlay-content
+			transform: scale(1)
+
+
+.overlay-content
+	width: 80%
+	max-width: 900px
+	background-color: #FFFFFF
+	padding: 10px
+	border: solid 1px #A4A4A4
+	border-radius: 3px
+	position: relative
+	transform: scale(0)
+	transition-duration: 320ms
+	transition-delay: 120ms
+	position: relative
+	z-index: 2000
+
+.btn-close-video
+	position: absolute
+	right: 0
+	top: 0
+	transform: translate(50%, -50%)
+	padding: 0
+	font-size: 2em
+	border: none
+	color: $darkPurple
+	background-color: #FFFFFF
+	border-radius: 50%
+	width: 25px
+	height: 25px
+	border: solid 1px darken($darkPurple, 10)
+	+flex($ai: center, $jc:center)
 
 
 

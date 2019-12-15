@@ -29,8 +29,9 @@
 			<section class="inside-solution-intro">
 				<img src="assets/images/bg-solutions.jpg" alt="fotomontaje de una persona usando una tablet" class="inside-solution-image-bg">
 				<article class="inside-solution-intro_description">
-					<div class="inside-solution-intro_color-box bg-purple no-absolute">
-						<img src="assets/images/img-video-pid.png" alt="imagen fallback video">
+					<div class="inside-solution-intro_color-box bg-purple no-absolute with-video" >
+						<video class="video-pid" src="assets/videos/plataforma-internacion-domiciliara.mp4" muted loop autoplay poster="assets/images/img-video-pid.png" preload="metadata">
+						</video>
 					</div>
 					<article class="inside-solution-intro_text">
 						<h2 class="purple-title">Plataforma de Internación Domiciliaria</h2>

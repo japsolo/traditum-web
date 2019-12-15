@@ -84,6 +84,8 @@
 				</li>
 			</ul>
 		</section>
+
+		<video src="assets/videos/video-home.mp4" autoplay muted loop class="home-video"></video>
 	</div>
 	<!-- /VIDEO -->
 

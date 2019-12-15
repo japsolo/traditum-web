@@ -37,7 +37,7 @@
 						<p>NUESTRA PLATAFORMA ARTICULA Y CONECTA A TODA LA RED PRESTACIONAL permitiendo validar las prestaciones y certificar la cobertura del afiliado en tiempo real.</p>
 						<p>Nuestra solución permite realizar la elegibilidad, validación, registración y autorización de todas las prestaciones de manera on line.</p>
 						<p>Ofrecemos distintos canales de conectividad para mejorar y considerar las necesidades de todos los Prestadores.</p>
-						<a href="#" class="btn btn-outline-green">
+						<a href="#" class="btn btn-outline-green" id="play-sgp-video">
 							<i class="fas fa-play-circle"></i>
 							Ver video del funcionamiento
 						</a>
@@ -151,6 +151,15 @@
 			<a href="#contact-us" class="btn btn-blue page-scroll">CONTÁCTENOS <img src="assets/images/icons/icon-email.svg" alt="ícono de un sobre de correo"></a>
 		</div>
 	</div>
+
+	<!-- Video-Overlay -->
+	<div class="overlay" id="video-sgp">
+		<div class="overlay-content">
+			<video preload="auto" src="assets/videos/sistema-gestion-prestaciona.mp4" controls width="100%"></video>
+			<button type="button" class="btn-close-video"><i class="fas fa-times-circle"></i></button>
+		</div>
+	</div>
+
 	<!-- /CONTENT -->
 
 	<!--FOOTER-->

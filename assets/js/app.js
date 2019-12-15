@@ -18,6 +18,10 @@ let finalHeight = 0;
 
 const breadCrumbs = Array.from(document.querySelectorAll('.bread-crumbs a'));
 
+const videoPID = document.querySelector('.video-pid');
+const btnPlayVideoSGP = document.querySelector('#play-sgp-video');
+const btnCloseVideoSGP = document.querySelector('.btn-close-video');
+
 // Set class="actual" to <li> element un .main-nav
 function setActualLink (link) {
 	const actualLink = navBar.querySelector(`li[data-link=${link}]`);
@@ -139,3 +143,33 @@ if (dropNav.hasAttribute('data-drop')) {
 // Set Prevent Default to last child in bread crumbs
 const lastAnchorInBreadCrumbs = breadCrumbs.pop();
 lastAnchorInBreadCrumbs.addEventListener('click', (e) => e.preventDefault());
+
+// Set the video controls on mouse event
+if (videoPID !== null) {
+	videoPID.addEventListener('mouseover', e => {
+		const self = videoPID;
+		self.setAttribute('controls', 'controls');
+	});
+}
+
+// Set behaviour for SGP video
+if (btnPlayVideoSGP !== null) {
+	const overlayVideo = document.querySelector('#video-sgp');
+	const video = overlayVideo.querySelector('video');
+
+	const closeVideo = () => {
+		overlayVideo.classList.remove('show');
+		video.pause();
+		video.currentTime = 0;
+	};
+
+	btnPlayVideoSGP.addEventListener('click', e => {
+		e.preventDefault();
+		setTimeout(() => video.play(), 1000);
+		overlayVideo.classList.add('show');
+	});
+
+	overlayVideo.addEventListener('click', closeVideo);
+
+	btnCloseVideoSGP.addEventListener('click', closeVideo);
+}
