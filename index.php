@@ -143,26 +143,26 @@
 			<article class="solution-content">
 				<h2>Sistema de Gestión Prestacional</h2>
 				<p>Nuestra Plataforma de Gestión Prestacional CONECTA a toda la Red de Prestadores, permite VALIDAR en línea todas las prestaciones brindadas y CERTIFICAR LA COBERTURA del afiliado en TIEMPO REAL.</p>
-				<a href="#" class="btn btn-outline-white">VER MÁS</a>
+				<a href="sistema-gestion-prestacional.php" class="btn btn-outline-white">VER MÁS</a>
 			</article>
 			<img src="assets/images/img-home-solution-SGP-person.png" alt="Doctora sosteniendo una tablet" class="img-solution-person right">
 		</div>
-		<div class="solution-box-half-size bg-gray">
-			<img src="assets/images/img-home-solution-SGP.png" alt="Sistema de Gestión Prestacional">
+		<div class="solution-box-half-size bg-gray with-image">
+			<img src="assets/images/img-home-solution-SGP.png" alt="Sistema de Gestión Prestacional" class="img-solution-home-sgp">
 		</div>
 	</div>
 
-	<div class="solution-wrapper" id="pvo">
+	<div class="solution-wrapper inverted" id="pvo">
 		<div class="solution-box-half-size bg-blue">
 			<article class="solution-content">
 				<h2>Plataforma de validación Odontológica</h2>
 				<p>DESARROLLAMOS UNA INNOVADORA PLATAFORMA PARA BRINDAR SOLUCIONES EN LA RED DE ODONTÓLOGOS. <br> Permite gestionar, controlar y validar prestaciones odontológicas aplicando las reglas propias del negocio y accediendo a importantes beneficios para el financiador y el prestador.</p>
-				<a href="#" class="btn btn-outline-white">VER MÁS</a>
+				<a href="plataforma-validacion-odontologica.php" class="btn btn-outline-white">VER MÁS</a>
 			</article>
 			<img src="assets/images/img-home-solution-PVO-person.png" alt="Odontólogo sosteniendo una radiografía" class="img-solution-person left" style="opacity: 0.6;">
 		</div>
-		<div class="solution-box-half-size bg-gray">
-			<img src="assets/images/img-home-solution-PVO.png" alt="Plataforma de Validación Odontológica">
+		<div class="solution-box-half-size bg-gray with-image">
+			<img src="assets/images/img-home-solution-PVO.png" alt="Plataforma de Validación Odontológica" class="img-solution-home-pvo">
 		</div>
 	</div>
 
@@ -171,25 +171,25 @@
 			<article class="solution-content">
 				<h2>Plataforma de internación Domiciliaria</h2>
 				<p>Nuestra plataforma permite VALIDAR, REGISTRAR y controlar en TIEMPO REAL todas las prestaciones brindadas a un paciente domiciliario con  cualquier tipo de cuidado.</p>
-				<a href="#" class="btn btn-outline-white">VER MÁS</a>
+				<a href="plataforma-internacion-domiciliaria.php" class="btn btn-outline-white">VER MÁS</a>
 			</article>
-			<img src="assets/images/img-home-solution-PID-person.png" alt="Una Medico ayudando a una persona de la 3er edad" class="img-solution-person left" style="height: auto;">
+			<img src="assets/images/img-home-solution-PID-person.png" alt="Una Medico ayudando a una persona de la 3er edad" class="img-solution-person right" style="height: auto;">
 		</div>
-		<div class="solution-box-half-size bg-gray">
-			<img src="assets/images/img-home-solution-PID.png" alt="Plataforma de Inernación Domiciliaria">
+		<div class="solution-box-half-size bg-gray with-image">
+			<img src="assets/images/img-home-solution-PID.png" alt="Plataforma de Inernación Domiciliaria" class="img-solution-home-pid">
 		</div>
 	</div>
 
-	<div class="solution-wrapper" id="sar">
+	<div class="solution-wrapper inverted" id="sar">
 		<div class="solution-box-half-size bg-blue">
 			<article class="solution-content">
-				<h2>SAR / Sistema Activador de Recuperos </h2>
+				<h2>SAR / Sistema Activador de Recuperos</h2>
 				<p>Un sistema de gestión y consultoría que optimiza y asegura los recuperos S.U.R de las obras sociales con mínimos esfuerzos. Un reintegro efectivo en menor tiempo.</p>
-				<a href="#" class="btn btn-outline-white">VER MÁS</a>
+				<a href="sistema-activador-recuperos.php" class="btn btn-outline-white">VER MÁS</a>
 			</article>
 		</div>
 		<div class="solution-box-half-size bg-gray no-padding">
-			<img src="assets/images/img-home-solution-SAR.png" alt="Sistema Activador de Recuperos">
+			<img src="assets/images/img-home-solution-SAR.png" alt="Sistema Activador de Recuperos" class="img-solution-home-sar">
 		</div>
 	</div>
 	<!-- /SOLUTIONS -->

@@ -29,7 +29,7 @@
 </footer>
 
 <div class="container footer-close">
-	<ul class="sm-footer">
+	<ul class="social-media-anchors">
 		<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
 		<li><a href="#"><i class="fab fa-twitter"></i></a></li>
 		<li><a href="#"><i class="fab fa-instagram"></i></a></li>

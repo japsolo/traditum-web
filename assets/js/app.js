@@ -16,6 +16,8 @@ const contactFormBg = document.querySelector('.contact-form-bg');
 let originalHeight = contactFormBg.clientHeight;
 let finalHeight = 0;
 
+const breadCrumbs = Array.from(document.querySelectorAll('.bread-crumbs a'));
+
 // Set class="actual" to <li> element un .main-nav
 function setActualLink (link) {
 	const actualLink = navBar.querySelector(`li[data-link=${link}]`);
@@ -133,3 +135,7 @@ if (dropNav.hasAttribute('data-drop')) {
 		anchor.setAttribute('class', 'page-scroll');
 	});
 }
+
+// Set Prevent Default to last child in bread crumbs
+const lastAnchorInBreadCrumbs = breadCrumbs.pop();
+lastAnchorInBreadCrumbs.addEventListener('click', (e) => e.preventDefault());

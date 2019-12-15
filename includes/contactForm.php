@@ -1,10 +1,10 @@
-<div class="full-contact-form-wrapper">
+ <div class="full-contact-form-wrapper">
 	<article>
 		<div class="container">
 			<div class="btn-contact-wrap">
 				<button type="button" class="show-contact-form">
 					<i class="fas fa-chevron-up"></i>
-					<p>Formulario de contacto</p>
+					<span>Formulario de contacto</span>
 				</button>
 			</div>
 		</div>
@@ -16,6 +16,7 @@
 						<h2>Contacto</h2>
 						<p>Si desea consultarnos por uno o varios productos, por favor complete el formulario a continuación y le estaremos respondiendo a la brevedad. </p>
 						<form action="/" method="post" class="form-box">
+							<input type="hidden" name="subject" value="<?= $title; ?>">
 							<div class="form-group">
 								<input type="text" name="name" placeholder="Su nombre" class="form-control">
 							</div>
