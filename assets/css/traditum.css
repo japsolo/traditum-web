@@ -1036,6 +1036,51 @@ textarea.form-control {
   overflow: hidden;
   padding: 1em; }
 
+.phone-buttons {
+  position: fixed;
+  z-index: 100;
+  right: 0;
+  top: 50%;
+  transform: transformY(-50%); }
+  .phone-buttons p {
+    margin: 0;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: flex-end;
+    align-items: stretch;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: relative;
+    right: -100%;
+    transform: translateX(-30px);
+    transition: 300ms;
+    -webkit-transition: 300ms; }
+    .phone-buttons p:hover {
+      right: 0;
+      transform: translateX(0); }
+  .phone-buttons i {
+    width: 30px;
+    height: 30px;
+    background-color: #3B3A3A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size: 15px;
+    border: solid 1px #FFFFFF; }
+  .phone-buttons a {
+    background-color: #0083C1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 0 10px;
+    font-size: 13px;
+    flex-grow: 1;
+    color: currentColor; }
+
 /*******************************/
 /*========= SECTIONS =========*/
 /*****************************/
@@ -1745,9 +1790,13 @@ textarea.form-control {
   .toggle-nav {
     display: none; }
   .main-header {
-    background-color: rgba(255, 255, 255, 0.97);
     padding-top: 40px;
-    border-bottom: solid 1px rgba(0, 0, 0, 0.2); }
+    background-color: transparent;
+    transition: 300ms;
+    -webkit-transition: 300ms; }
+    .main-header:not(.home), .main-header.is-scrolling {
+      background-color: rgba(255, 255, 255, 0.97);
+      border-bottom: solid 1px rgba(0, 0, 0, 0.2); }
     .main-header .container {
       display: flex;
       justify-content: space-between;
@@ -1877,17 +1926,16 @@ textarea.form-control {
   .video-background {
     position: relative;
     background: none;
-    border-bottom: solid 1px rgba(0, 0, 0, 0.1);
-    background-color: #F2F2F2; }
+    background-color: #F2F2F2;
+    overflow: hidden; }
   .home-video {
     display: block;
-    width: auto;
-    height: 100%;
+    width: 100%;
     position: absolute;
     left: 50%;
-    top: 0;
-    transform: translateX(-50%);
-    opacity: 0.4; }
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.45; }
   .btn-outline-white {
     transition: 300ms;
     -webkit-transition: 300ms; }
@@ -1895,6 +1943,14 @@ textarea.form-control {
       background-color: #009AD8;
       border-color: #009AD8;
       box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); }
+  .icons-links li {
+    line-height: 0;
+    border-radius: 100%;
+    transition: 300ms;
+    -webkit-transition: 300ms; }
+    .icons-links li:hover {
+      transform: rotate(360deg) scale(1.2);
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.4); }
   .we-know {
     display: flex;
     justify-content: space-between;

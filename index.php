@@ -90,6 +90,7 @@
 	<!-- /VIDEO -->
 
 	<div class="container">
+		<span id="sticky-anchor"></span>
 		<!-- WE-KNOW -->
 		<section class="we-know">
 			<h2 class="section-title">SABEMOS HACERLO</h2>
@@ -223,7 +224,7 @@
 				<div class="other-solution-special-box">
 					<p>Contamos con un Centro de Atención Telefónico que concentra todas las consultas de manera on line referidas a la utilización de nuestras soluciones. </p>
 					<p>Un equipo de profesionales capacitados en la implementación, soporte y mantenimiento de la plataforma.</p>
-					<a href="#">
+					<a href="mailto:prestadores@traditum.com?subject=Contacto%20desde%20la%20página%20web&body=Quisiera%20saber%20acerca%20de..." target="_blank" rel="noopener noreferrer">
 						<span> 0810-222-1122 </span>
 						PRESTADORES@TRADITUM.COM
 					</a>

@@ -7,7 +7,8 @@ const mainNav = document.querySelector('.main-nav');
 const navBarLinks = Array.from(document.querySelectorAll('.first-level-nav a:not(.has-drop)'));
 const dropNav = document.querySelector('.drop-nav');
 
-const headerTop = document.querySelector('.main-header').offsetTop + 300;
+const header = document.querySelector('.main-header');
+const headerTop = header.offsetTop + 300;
 const btnTop = document.querySelector('#btn-top');
 
 const btnShowContactForm = document.querySelector('.show-contact-form');
@@ -77,12 +78,20 @@ navBarLinks.forEach(oneLink => {
 });
 
 // To top button - Sticky show
+// Set class in main-header only in home section
 window.addEventListener('scroll', () => {
 	let windowScrollY = window.scrollY;
 	if (windowScrollY > headerTop) {
 		btnTop.classList.add('show');
 	} else {
 		btnTop.classList.remove('show');
+	}
+
+	let stickyAnchor = document.querySelector('#sticky-anchor');
+	if (stickyAnchor !== null && windowScrollY > stickyAnchor.offsetTop) {
+		header.classList.add('is-scrolling');
+	} else {
+		header.classList.remove('is-scrolling');
 	}
 });
 
@@ -141,8 +150,10 @@ if (dropNav.hasAttribute('data-drop')) {
 }
 
 // Set Prevent Default to last child in bread crumbs
-const lastAnchorInBreadCrumbs = breadCrumbs.pop();
-lastAnchorInBreadCrumbs.addEventListener('click', (e) => e.preventDefault());
+if (breadCrumbs !== null && breadCrumbs.length > 0) {
+	const lastAnchorInBreadCrumbs = breadCrumbs.pop();
+	lastAnchorInBreadCrumbs.addEventListener('click', (e) => e.preventDefault());
+}
 
 // Set the video controls on mouse event
 if (videoPID !== null) {

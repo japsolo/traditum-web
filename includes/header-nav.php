@@ -1,4 +1,4 @@
-<header class="main-header">
+<header class="main-header <?= isset($isHome) && $isHome ? 'home' : null ?>">
 	<div class="container">
 		<!-- Logo -->
 		<figure class="logo">
@@ -42,5 +42,3 @@
 		</nav>
 	</div>
 </header>
-
-<i class="sticky-anchor"></i>

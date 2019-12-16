@@ -40,4 +40,15 @@
 
 <div class="wrap-top-btn"><a href="#" title="subir" id="btn-top"><i class="fas fa-arrow-circle-up"></i></a></div>
 
+<div class="phone-buttons">
+	<p >
+		<i class="fas fa-phone-volume"></i>
+		<a href="tel:08102221122" target="_blank" rel="noopener noreferrer">0810-222-1122</a>
+	</p>
+	<p >
+		<i class="fas fa-at"></i>
+		<a href="mailto:prestadores@traditum.com?subject=Contacto%20desde%20la%20página%20web&body=Quisiera%20saber%20acerca%20de..." target="_blank" rel="noopener noreferrer">PRESTADORES@TRADITUM.COM</a>
+	</p>
+</div>
+
 <?php require_once 'contactForm.php'; ?>

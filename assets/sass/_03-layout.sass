@@ -766,3 +766,35 @@ textarea.form-control
 	border-radius: 15px
 	overflow: hidden
 	padding: 1em
+
+.phone-buttons
+	position: fixed
+	z-index: 100
+	right: 0
+	top: 50%
+	transform: transformY(-50%)
+	p
+		margin: 0
+		color: #FFFFFF
+		+flex($jc: flex-end)
+		position: relative
+		right: -100%
+		transform: translateX(-30px)
+		+ttion
+		&:hover
+			right: 0
+			transform: translateX(0)
+	i
+		width: 30px
+		height: 30px
+		background-color: #3B3A3A
+		+flex($ai: center, $jc: center)
+		font-size: 15px
+		border: solid 1px #FFFFFF
+	a
+		background-color: $blue
+		+flex($ai: center)
+		padding: 0 10px
+		font-size: 13px
+		flex-grow: 1
+		color: currentColor

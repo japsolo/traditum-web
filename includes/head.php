@@ -21,7 +21,7 @@
 
 	<title><?=$title;?> • TRADITUM • </title>
 
-	<link href="assets/css/traditum.css" rel="stylesheet">
+	<link href="assets/css/traditum.min.css" rel="stylesheet">
 
 	<!-- FontAwesome -->
 	<script src="https://kit.fontawesome.com/703ba68551.js" crossorigin="anonymous"></script>
