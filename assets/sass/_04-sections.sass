@@ -33,6 +33,7 @@
 .about-content
 	margin: 30px 0 90px
 	position: relative
+	+flex
 
 .about-image
 	text-align: center
@@ -54,15 +55,17 @@
 			padding: 30px
 
 .about-years
-	padding-top: 15px
-	+flex($ai: center, $jc: flex-end)
+	margin: auto
+	order: -1
+	padding-bottom: 15px
+	+flex($ai: center, $jc: center)
 	img
-		width: 50px
+		width: 70px
 	p
 		font-size: 1.3em
 		color: #999999
 		font-style: italic
-		width: calc(85% - 50px)
+		width: calc(85% - 70px)
 		padding-left: 10px
 		max-width: 240px
 		opacity: 0.7
@@ -130,7 +133,8 @@
 	@each $name, $color in $colors
 		&.bg-#{$name}
 			background-color: $color
-			border-color: lighten($color, 22)
+			background-clip: content-box
+			border-color: rgba($color, 0.5)
 	img
 		width: 60px
 

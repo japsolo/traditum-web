@@ -111,7 +111,7 @@
 					<img src="assets/images/icons/icon-we-know_03.svg" alt="ícono de dos personas celebrando">
 				</li>
 				<li>
-					<h3><span>Certificados <br> <i>ISO</i> 9001/2015</span></h3>
+					<h3><span style="padding-left: 0; line-height: 1.5">Certificados <br> <i>ISO</i> 9001/2015</span></h3>
 					<p>Desde 2015 validando la calidad de nuestros servicios.</p>
 					<img src="assets/images/icons/icon-we-know_04.svg" alt="ícono de un certificado">
 				</li>

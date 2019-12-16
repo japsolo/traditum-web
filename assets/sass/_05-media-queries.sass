@@ -195,7 +195,7 @@
 			width: 32%
 
 	.inside-header
-		padding-top: 140px
+		padding-top: 160px
 		+flex($ai: flex-start, $jc: space-between)
 		.social-media-anchors
 			margin-top: 8px
@@ -275,12 +275,13 @@
 
 	.main-header
 		padding-top: 40px
+		padding-bottom: 30px
 		background-color: transparent
 		+ttion
 		&:not(.home),
 		&.is-scrolling
 			background-color: rgba(#FFFFFF, 0.97)
-			border-bottom: solid 1px rgba(black, 0.2)
+			box-shadow: 0 0 9px rgba(black, 0.2)
 		.container
 			+flex($ai: center, $jc: space-between)
 
@@ -297,8 +298,8 @@
 
 	.first-level-nav
 		padding: 0
-		height: 37px
-		align-items: stretch
+		height: 50px
+		align-items: center
 		align-content: flex-start
 		> li
 			width: auto
@@ -307,11 +308,12 @@
 			&[data-link=solutions]
 				> a
 					padding-bottom: 25px
+					margin-bottom: -20px
 
 	.drop-nav
 		position: absolute
 		left: 0
-		top: 100%
+		top: 45px
 		width: 320px
 		margin: 0
 		> li
@@ -575,20 +577,30 @@
 		right: 0
 		top: 50%
 		transform: translateY(-50%)
-		padding: 45px
+		padding: 60px
 		width: percentage(780 / $baseWidth)
 		p
 			margin-bottom: 1.5em
+			&:nth-of-type(4)
+				margin-bottom: 40px
 			&.about-special-p
-				margin: 0 -45px -45px
+				margin: 0 -60px -60px
+				padding: 40px 60px
 
 	.about-years
 		top: 0
 		right: 0
 		bottom: auto
 		left: auto
-		width: 360px
+		width: 380px
+		padding: 0
 		justify-content: flex-end
+		img
+			width: 100px
+		p
+			font-size: 1.4em
+			width: calc(100% - 100px)
+			max-width: none
 
 	.sgp-bi-list
 		margin-bottom: 100px
