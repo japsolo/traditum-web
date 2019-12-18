@@ -20,8 +20,13 @@ let finalHeight = 0;
 const breadCrumbs = Array.from(document.querySelectorAll('.bread-crumbs a'));
 
 const videoPID = document.querySelector('.video-pid');
+
 const btnPlayVideoSGP = document.querySelector('#play-sgp-video');
 const btnCloseVideoSGP = document.querySelector('.btn-close-video');
+
+const weKnowBoxes = Array.from(document.querySelectorAll('.we-know-list li'));
+
+const btnCallToAction = document.querySelector('.solution-call-to-action a');
 
 // Set class="actual" to <li> element un .main-nav
 function setActualLink (link) {
@@ -79,19 +84,28 @@ navBarLinks.forEach(oneLink => {
 
 // To top button - Sticky show
 // Set class in main-header only in home section
+// Set animation in We Know Home boxes
 window.addEventListener('scroll', () => {
 	let windowScrollY = window.scrollY;
+
+	// Top Button
 	if (windowScrollY > headerTop) {
 		btnTop.classList.add('show');
 	} else {
 		btnTop.classList.remove('show');
 	}
 
+	// Add class in header
 	let stickyAnchor = document.querySelector('#sticky-anchor');
 	if (stickyAnchor !== null && windowScrollY > stickyAnchor.offsetTop) {
 		header.classList.add('is-scrolling');
 	} else {
 		header.classList.remove('is-scrolling');
+	}
+
+	// Set animation in We Know Boxes
+	if (weKnowBoxes !== null && stickyAnchor !== null && windowScrollY > stickyAnchor.offsetTop) {
+		weKnowBoxes.forEach(box => box.classList.add('animate'));
 	}
 });
 
@@ -183,4 +197,20 @@ if (btnPlayVideoSGP !== null) {
 	overlayVideo.addEventListener('click', closeVideo);
 
 	btnCloseVideoSGP.addEventListener('click', closeVideo);
+}
+
+// Event to Call to action button
+if (btnCallToAction !== null) {
+	btnCallToAction.addEventListener('click', e => {
+		let arrowIcon = btnShowContactForm.querySelector('[class*=fas]');
+		arrowIcon.classList.remove('fa-chevron-up');
+		arrowIcon.classList.add('fa-chevron-down');
+		let increase = setInterval(function () {
+			finalHeight += 20;
+			contactFormWrapper.style.height = `${finalHeight}px`;
+			if (finalHeight >= originalHeight) {
+				clearInterval(increase);
+			}
+		}, 4);
+	});
 }

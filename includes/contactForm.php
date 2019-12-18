@@ -14,7 +14,7 @@
 				<div class="container">
 					<div class="contact-form-box">
 						<h2>Contacto</h2>
-						<p>Si desea consultarnos por uno o varios productos, por favor complete el formulario a continuación y le estaremos respondiendo a la brevedad. </p>
+						<p>Envíenos un mensaje y cueéntenos lo que necesita. Nos estaremos poniendo en contacto a la brevedad. Si prefiere escribirnos puede hacerlo a <span>info@traditum.com</span> o llamarnos al 3220-7200.</p>
 						<form action="/" method="post" class="form-box">
 							<input type="hidden" name="subject" value="<?= $title; ?>">
 							<div class="form-group">

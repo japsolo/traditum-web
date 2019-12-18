@@ -47,6 +47,13 @@
 		font-size: 1.4em
 		+flex($ai: center, $jc: center)
 
+#sticky-anchor
+	position: fixed
+	left: 0
+	top: 50%
+	width: 100%
+	z-index: 100
+
 
 
 
@@ -305,6 +312,13 @@
 		position: relative
 		margin-bottom: 30px
 		position: relative
+		transform: scale(0)
+		&.animate
+			animation: popUpBox 320ms ease-out forwards
+			@for $i from 1 through 4
+				&:nth-child(#{$i})
+					animation-delay: ($i * 80) * 1ms
+					
 		&::before
 			content: ''
 			width: 44px
@@ -352,6 +366,13 @@
 			bottom: 10px
 			width: 60px
 
+@keyframes popUpBox
+	0%
+		transform: scale(0)
+	100%
+		transform: scale(1)
+		
+
 .we-know-text
 	p
 		color: #888888
@@ -396,6 +417,11 @@
 		right: 0
 	&.left
 		left: 0
+	&.person-pvo
+		width: auto
+		height: auto
+		max-width: 400px
+		opacity: 0.9
 
 .solution-content
 	color: #ffffff
@@ -412,11 +438,13 @@
 		margin: 1.5em 0
 
 .more-solutions
-	margin: 80px 0
-	overflow: hidden
+	margin: 80px 0 0
+	// overflow: hidden
 
 .other-solution
 	margin-bottom: 60px
+	&:last-child
+		animation: highLight 2000ms ease-in infinite alternate
 	h2
 		position: relative
 		font: normal 1.8em $compFont
@@ -426,6 +454,15 @@
 		font-size: 1.4em
 		line-height: 1.6
 		color: #777777
+
+@keyframes highLight
+	0%
+		transform: scale(1.1)
+		filter: brightness(1.1)
+	20%,
+	100%
+		transform: none
+		filter: none
 
 .other-solution-image
 	max-width: 370px
@@ -510,7 +547,6 @@
 		z-index: 2000
 		.overlay-content
 			transform: scale(1)
-
 
 .overlay-content
 	width: 80%
@@ -740,6 +776,8 @@
 		max-width: 760px
 		margin-left: auto
 		margin-right: auto
+		span
+			color: $darkPurple
 
 .form-box
 	margin-top: 45px

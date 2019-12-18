@@ -86,11 +86,11 @@
 		</section>
 
 		<video src="assets/videos/video-home.mp4" autoplay muted loop class="home-video"></video>
+		<span id="sticky-anchor"></span>
 	</div>
 	<!-- /VIDEO -->
 
 	<div class="container">
-		<span id="sticky-anchor"></span>
 		<!-- WE-KNOW -->
 		<section class="we-know">
 			<h2 class="section-title">SABEMOS HACERLO</h2>
@@ -151,7 +151,9 @@
 			<img src="assets/images/img-home-solution-SGP-person.png" alt="Doctora sosteniendo una tablet" class="img-solution-person right">
 		</div>
 		<div class="solution-box-half-size bg-gray with-image">
-			<img src="assets/images/img-home-solution-SGP.png" alt="Sistema de Gestión Prestacional" class="img-solution-home-sgp">
+			<a href="sistema-gestion-prestacional.php">
+				<img src="assets/images/img-home-solution-SGP.png" alt="Sistema de Gestión Prestacional" class="img-solution-home-sgp">
+			</a>
 		</div>
 	</div>
 
@@ -160,12 +162,14 @@
 			<article class="solution-content">
 				<h2>Plataforma de validación Odontológica</h2>
 				<p>DESARROLLAMOS UNA INNOVADORA PLATAFORMA PARA BRINDAR SOLUCIONES EN LA RED DE ODONTÓLOGOS. <br> Permite gestionar, controlar y validar prestaciones odontológicas aplicando las reglas propias del negocio y accediendo a importantes beneficios para el financiador y el prestador.</p>
-				<a href="plataforma-validacion-odontologica.php" class="btn btn-outline-white">VER MÁS</a>
+				<a href="plataforma-validacion-odontologica.php" class="btn btn-outline-white purple-hover">VER MÁS</a>
 			</article>
-			<img src="assets/images/img-home-solution-PVO-person.png" alt="Odontólogo sosteniendo una radiografía" class="img-solution-person left" style="opacity: 0.6;">
+			<img src="assets/images/img-home-solution-PVO-person.png" alt="Odontólogo sosteniendo una radiografía" class="img-solution-person left person-pvo">
 		</div>
 		<div class="solution-box-half-size bg-gray with-image">
-			<img src="assets/images/img-home-solution-PVO.png" alt="Plataforma de Validación Odontológica" class="img-solution-home-pvo">
+			<a href="plataforma-validacion-odontologica.php" class="img-solution-home-pvo">
+				<img src="assets/images/img-home-solution-PVO.png" alt="Plataforma de Validación Odontológica" >
+			</a>
 		</div>
 	</div>
 
@@ -179,7 +183,9 @@
 			<img src="assets/images/img-home-solution-PID-person.png" alt="Una Medico ayudando a una persona de la 3er edad" class="img-solution-person right" style="height: auto;">
 		</div>
 		<div class="solution-box-half-size bg-gray with-image">
-			<img src="assets/images/img-home-solution-PID.png" alt="Plataforma de Inernación Domiciliaria" class="img-solution-home-pid">
+			<a href="plataforma-internacion-domiciliaria.php">
+				<img src="assets/images/img-home-solution-PID.png" alt="Plataforma de Inernación Domiciliaria" class="img-solution-home-pid">
+			</a>
 		</div>
 	</div>
 
@@ -188,11 +194,13 @@
 			<article class="solution-content">
 				<h2>SAR / Sistema Activador de Recuperos</h2>
 				<p>Un sistema de gestión y consultoría que optimiza y asegura los recuperos S.U.R de las obras sociales con mínimos esfuerzos. Un reintegro efectivo en menor tiempo.</p>
-				<a href="sistema-activador-recuperos.php" class="btn btn-outline-white">VER MÁS</a>
+				<a href="sistema-activador-recuperos.php" class="btn btn-outline-white purple-hover">VER MÁS</a>
 			</article>
 		</div>
 		<div class="solution-box-half-size bg-gray no-padding">
-			<img src="assets/images/img-home-solution-SAR.png" alt="Sistema Activador de Recuperos" class="img-solution-home-sar">
+			<a href="sistema-activador-recuperos.php" style="height: 100%;">
+				<img src="assets/images/img-home-solution-SAR.png" alt="Sistema Activador de Recuperos" class="img-solution-home-sar">
+			</a>
 		</div>
 	</div>
 	<!-- /SOLUTIONS -->
@@ -231,8 +239,10 @@
 				</div>
 			</article>
 		</section>
+		
+		<div id="it" style="padding: 70px"></div>
 
-		<h2 class="section-title title-with-line-purple" id="it">Especialistas en IT</h2>
+		<h2 class="section-title title-with-line-purple" >Especialistas en IT</h2>
 		<section class="it-specialist">
 			<figure class="it-specialist-image">
 				<img src="assets/images/img-home-it-specialist.jpg" alt="Especialistas en IT">

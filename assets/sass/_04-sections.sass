@@ -35,12 +35,22 @@
 	position: relative
 	+flex
 
+@keyframes show
+	0%
+		opacity: 0
+	100%
+		opacity: 1
+
 .about-image
 	text-align: center
+	animation: show 900ms ease-in 500ms forwards
+	opacity: 0
 
 .about-text
 	background-color: #f3f5f9
 	padding: 30px
+	opacity: 0
+	animation: show 450ms ease-in 650ms forwards	
 	h2
 		margin-bottom: 0
 	p
@@ -93,6 +103,8 @@
 			height: auto
 	&.with-video
 		+flex($ai: center, $jc: center)
+	&.no-bg
+		background-color: transparent
 	h2
 		color: #FFFFFF
 		position: absolute

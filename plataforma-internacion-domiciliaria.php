@@ -18,9 +18,10 @@
 			</ul>
 
 			<ul class="social-media-anchors">
-				<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-				<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-				<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+				<li><a href="https://www.facebook.com/Traditum-113803560082000/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+				<li><a href="https://www.linkedin.com/company/traditum-sa/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+				<li><a href="https://twitter.com/TraditumSA" target="_blank"><i class="fab fa-twitter"></i></a></li>
+				<li><a href="https://www.instagram.com/traditumsa/" target="_blank"><i class="fab fa-instagram"></i></a></li>
 			</ul>
 		</header>
 
@@ -29,7 +30,7 @@
 			<section class="inside-solution-intro">
 				<img src="assets/images/bg-solutions.jpg" alt="fotomontaje de una persona usando una tablet" class="inside-solution-image-bg">
 				<article class="inside-solution-intro_description">
-					<div class="inside-solution-intro_color-box bg-purple no-absolute with-video" >
+					<div class="inside-solution-intro_color-box no-bg no-absolute with-video" >
 						<video class="video-pid" src="assets/videos/plataforma-internacion-domiciliara.mp4" muted loop autoplay poster="assets/images/img-video-pid.png" preload="metadata">
 						</video>
 					</div>
