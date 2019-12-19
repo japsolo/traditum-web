@@ -45,34 +45,17 @@
 		<!-- Clients -->
 		<h2 class="section-title">Confían en nosotros</h2>
 		<div class="clients-logos owl-carousel owl-theme">
-			<div><img src="assets/images/logo-swiss-medical.jpg" alt="logo Swiss Medical"></div>
-			<div><img src="assets/images/logo-medicus.jpg" alt="logo Medicus"></div>
-			<div><img src="assets/images/logo-medife.jpg" alt="logo Medife"></div>
-			<div><img src="assets/images/logo-osmecon.jpg" alt="logo Osmecon"></div>
-			<div><img src="assets/images/logo-obsba.jpg" alt="logo ObsBA"></div>
-			<div><img src="assets/images/logo-obra-social-prensa.jpg" alt="logo Obra Social Prensa">
-			</div>
-			<div><img src="assets/images/logo-swiss-medical.jpg" alt="logo Swiss Medical"></div>
-			<div><img src="assets/images/logo-medicus.jpg" alt="logo Medicus"></div>
-			<div><img src="assets/images/logo-medife.jpg" alt="logo Medife"></div>
-			<div><img src="assets/images/logo-osmecon.jpg" alt="logo Osmecon"></div>
-			<div><img src="assets/images/logo-obsba.jpg" alt="logo ObsBA"></div>
-			<div><img src="assets/images/logo-obra-social-prensa.jpg" alt="logo Obra Social Prensa">
-			</div>
-			<div><img src="assets/images/logo-swiss-medical.jpg" alt="logo Swiss Medical"></div>
-			<div><img src="assets/images/logo-medicus.jpg" alt="logo Medicus"></div>
-			<div><img src="assets/images/logo-medife.jpg" alt="logo Medife"></div>
-			<div><img src="assets/images/logo-osmecon.jpg" alt="logo Osmecon"></div>
-			<div><img src="assets/images/logo-obsba.jpg" alt="logo ObsBA"></div>
-			<div><img src="assets/images/logo-obra-social-prensa.jpg" alt="logo Obra Social Prensa">
-			</div>
-			<div><img src="assets/images/logo-swiss-medical.jpg" alt="logo Swiss Medical"></div>
-			<div><img src="assets/images/logo-medicus.jpg" alt="logo Medicus"></div>
-			<div><img src="assets/images/logo-medife.jpg" alt="logo Medife"></div>
-			<div><img src="assets/images/logo-osmecon.jpg" alt="logo Osmecon"></div>
-			<div><img src="assets/images/logo-obsba.jpg" alt="logo ObsBA"></div>
-			<div><img src="assets/images/logo-obra-social-prensa.jpg" alt="logo Obra Social Prensa">
-			</div>
+			<?php 
+				$logos = glob('assets/images/logos/*.jpg');
+				$finalLogos = [];
+				foreach ($logos as $logo) {
+					$pathArray = explode('/', $logo);
+					$realName = array_pop($pathArray);
+					$finalLogos[] = $realName;
+				}
+				foreach($finalLogos as $logo) :?>
+				<img src="assets/images/logos/<?= $logo; ?>" alt="<?= str_replace('.jpg', '', str_replace('-', ' ', $logo)); ?>" style="opacity: 0.7;">
+			<?php endforeach; ?>
 		</div>
 	</div>
 	<!-- /CONTENT -->
