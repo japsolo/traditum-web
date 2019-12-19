@@ -1,5 +1,6 @@
 <?php
 	$title = 'Inicio';
+	$otherCSS = 'owl.carousel.min.css';
 	require_once 'includes/head.php';
 ?>
 
@@ -126,15 +127,37 @@
 
 		<!-- CLIENTS -->
 		<h2 class="section-title">Confían en nosotros</h2>
-		<ul class="clients-logos">
-			<li><img src="assets/images/logo-swiss-medical.jpg" alt="logo Swiss Medical"></li>
-			<li><img src="assets/images/logo-medicus.jpg" alt="logo Medicus"></li>
-			<li><img src="assets/images/logo-medife.jpg" alt="logo Medife"></li>
-			<li><img src="assets/images/logo-osmecon.jpg" alt="logo Osmecon"></li>
-			<li><img src="assets/images/logo-obsba.jpg" alt="logo ObsBA"></li>
-			<li><img src="assets/images/logo-obra-social-prensa.jpg" alt="logo Obra Social Prensa">
-			</li>
-		</ul>
+
+		<div class="clients-logos owl-carousel owl-theme">
+			<div><img src="assets/images/logo-swiss-medical.jpg" alt="logo Swiss Medical"></div>
+			<div><img src="assets/images/logo-medicus.jpg" alt="logo Medicus"></div>
+			<div><img src="assets/images/logo-medife.jpg" alt="logo Medife"></div>
+			<div><img src="assets/images/logo-osmecon.jpg" alt="logo Osmecon"></div>
+			<div><img src="assets/images/logo-obsba.jpg" alt="logo ObsBA"></div>
+			<div><img src="assets/images/logo-obra-social-prensa.jpg" alt="logo Obra Social Prensa">
+			</div>
+			<div><img src="assets/images/logo-swiss-medical.jpg" alt="logo Swiss Medical"></div>
+			<div><img src="assets/images/logo-medicus.jpg" alt="logo Medicus"></div>
+			<div><img src="assets/images/logo-medife.jpg" alt="logo Medife"></div>
+			<div><img src="assets/images/logo-osmecon.jpg" alt="logo Osmecon"></div>
+			<div><img src="assets/images/logo-obsba.jpg" alt="logo ObsBA"></div>
+			<div><img src="assets/images/logo-obra-social-prensa.jpg" alt="logo Obra Social Prensa">
+			</div>
+			<div><img src="assets/images/logo-swiss-medical.jpg" alt="logo Swiss Medical"></div>
+			<div><img src="assets/images/logo-medicus.jpg" alt="logo Medicus"></div>
+			<div><img src="assets/images/logo-medife.jpg" alt="logo Medife"></div>
+			<div><img src="assets/images/logo-osmecon.jpg" alt="logo Osmecon"></div>
+			<div><img src="assets/images/logo-obsba.jpg" alt="logo ObsBA"></div>
+			<div><img src="assets/images/logo-obra-social-prensa.jpg" alt="logo Obra Social Prensa">
+			</div>
+			<div><img src="assets/images/logo-swiss-medical.jpg" alt="logo Swiss Medical"></div>
+			<div><img src="assets/images/logo-medicus.jpg" alt="logo Medicus"></div>
+			<div><img src="assets/images/logo-medife.jpg" alt="logo Medife"></div>
+			<div><img src="assets/images/logo-osmecon.jpg" alt="logo Osmecon"></div>
+			<div><img src="assets/images/logo-obsba.jpg" alt="logo ObsBA"></div>
+			<div><img src="assets/images/logo-obra-social-prensa.jpg" alt="logo Obra Social Prensa">
+			</div>
+		</div>
 		<!-- /CLIENTS -->
 
 		<h2 class="section-title title-with-line-purple">Nuestras Soluciones</h2>
@@ -284,10 +307,32 @@
 	<!-- ::::::::::: SCRIPTS ::::::::::: -->
 	<?php require_once'includes/scripts.php'; ?>
 
-	<!-- Actual Link -->
+	<script src="assets/js/owl.carousel.min.js"></script>
 	<script>
+		$(document).ready(function () {
+  			$('.clients-logos').owlCarousel({
+				loop: true,
+				nav: true,
+				dots: true,
+				margin: 5,
+				autoplay: true,
+				smartSpeed: 350,
+				responsive: {
+					0: {
+						items: 2
+					},
+					576: {
+						items: 3
+					},
+					992: {
+						items: 6
+					}
+				}
+			});
+		});
+		
+		// Actual Link
 		setActualLink('home');
 	</script>
-
 </body>
 </html>

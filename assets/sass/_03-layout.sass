@@ -385,10 +385,39 @@
 
 .clients-logos
 	margin-bottom: 130px
-	+flex($ai: center, $jc: space-around)
-	li
-		width: 45%
-		text-align: center
+	position: relative
+
+.owl-carousel
+	.owl-nav
+		position: absolute
+		width: 100%
+		left: 0
+		top: 25%
+		transform: translateY(-50%)
+		background-color: yellow
+		+flex($ai: center, $jc: space-between)
+		button
+			&.owl-prev,
+			&.owl-next
+				+flex($ai: center)
+				opacity: 0.6
+				font-size: 80px
+				padding: 0
+				color: #A4A4A4
+				line-height: 0
+	button
+		&.owl-dot
+			width: 12px	
+			height: 12px
+			border-radius: 50%
+			background-color: rgba(#A4A4A4, 0.5)
+			margin: 3px
+			padding: 0
+			&.active
+				background-color: rgba(#A4A4A4, 0.9)
+
+.owl-dots
+	text-align: center
 
 .solution-wrapper
 	margin: 45px 0

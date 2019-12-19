@@ -625,14 +625,44 @@ body {
 
 .clients-logos {
   margin-bottom: 130px;
+  position: relative; }
+
+.owl-carousel .owl-nav {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 25%;
+  transform: translateY(-50%);
+  background-color: yellow;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   flex-direction: row; }
-  .clients-logos li {
-    width: 45%;
-    text-align: center; }
+  .owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    opacity: 0.6;
+    font-size: 80px;
+    padding: 0;
+    color: #A4A4A4;
+    line-height: 0; }
+
+.owl-carousel button.owl-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: rgba(164, 164, 164, 0.5);
+  margin: 3px;
+  padding: 0; }
+  .owl-carousel button.owl-dot.active {
+    background-color: rgba(164, 164, 164, 0.9); }
+
+.owl-dots {
+  text-align: center; }
 
 .solution-wrapper {
   margin: 45px 0; }
@@ -1632,8 +1662,6 @@ textarea.form-control {
     font-size: 1.6em; }
   .btn {
     font-size: 1.6em; }
-  .clients-logos li {
-    width: 33.33333%; }
   .solution-content h2 {
     font-size: 3.3em; }
   .solution-content p {
@@ -1706,8 +1734,6 @@ textarea.form-control {
 @media (min-width: 768px) {
   .video-background {
     background: url(../images/bg-video-lg.jpg) center top/cover; }
-  .clients-logos li {
-    width: 16.66667%; }
   .more-solutions {
     display: flex;
     justify-content: space-between;

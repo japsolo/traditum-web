@@ -21,6 +21,8 @@
 
 	<title><?=$title;?> • TRADITUM • </title>
 
+	<?= isset($otherCSS) ? "<link href='assets/css/$otherCSS' rel='stylesheet'>" : null; ?>
+
 	<link href="assets/css/traditum.css" rel="stylesheet">
 
 	<!-- FontAwesome -->
