@@ -284,7 +284,12 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    flex-direction: row; }
+    flex-direction: row;
+    transition: 300ms;
+    -webkit-transition: 300ms; }
+    .social-media-anchors a:hover {
+      transform: rotate(360deg);
+      border-radius: 50%; }
 
 #sticky-anchor {
   position: fixed;

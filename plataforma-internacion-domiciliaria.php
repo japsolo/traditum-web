@@ -28,7 +28,7 @@
 		<!-- Solution-Content -->
 		<div class="inside-solution-content">
 			<section class="inside-solution-intro">
-				<img src="assets/images/bg-solutions.jpg" alt="fotomontaje de una persona usando una tablet" class="inside-solution-image-bg">
+				<img src="assets/images/bg-solutions.jpg" alt="fotomontaje de una persona usando una tablet" class="inside-solution-image-bg" style="opacity: 0;">
 				<article class="inside-solution-intro_description">
 					<div class="inside-solution-intro_color-box no-bg no-absolute with-video" >
 						<video class="video-pid" src="assets/videos/plataforma-internacion-domiciliara.mp4" muted loop autoplay poster="assets/images/img-video-pid.png" preload="metadata">

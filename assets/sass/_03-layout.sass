@@ -36,7 +36,7 @@
 .social-media-anchors
 	+flex($ai: center)
 	li
-		margin: 0 5px;
+		margin: 0 5px
 	a
 		display: block
 		width: 25px
@@ -46,6 +46,10 @@
 		color: #ffffff
 		font-size: 1.4em
 		+flex($ai: center, $jc: center)
+		+ttion
+		&:hover
+			transform: rotate(360deg)
+			border-radius: 50%
 
 #sticky-anchor
 	position: fixed
