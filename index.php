@@ -167,7 +167,7 @@
 		<div class="solution-box-half-size bg-blue">
 			<article class="solution-content">
 				<h2>Plataforma de validación Odontológica</h2>
-				<p>DESARROLLAMOS UNA INNOVADORA PLATAFORMA PARA BRINDAR SOLUCIONES EN LA RED DE ODONTÓLOGOS. <br> Permite gestionar, controlar y validar prestaciones odontológicas aplicando las reglas propias del negocio y accediendo a importantes beneficios para el financiador y el prestador.</p>
+				<p>Desarrollamos una moderna Plataforma para brindar Soluciones en la Red de Odontólogos.<br>Permite GESTIONAR, CONTROLAR y VALIDAR prestaciones odontológicas aplicando las reglas propias del negocio y accediendo a importantes Beneficios para el Financiador y el Prestador.</p>
 				<a href="plataforma-validacion-odontologica.php" class="btn btn-outline-white purple-hover">VER MÁS</a>
 			</article>
 			<img src="assets/images/img-home-solution-PVO-person.png" alt="Odontólogo sosteniendo una radiografía" class="img-solution-person left person-pvo">
@@ -227,8 +227,7 @@
 				<figure class="other-solution-image">
 					<img src="assets/images/img-other-solutions_02.jpg" alt="suite de prestadores" data-type="small">
 				</figure>
-				<p>Un sistema que ofrece una solución única donde los procesos vinculados a los Expedientes pueden ser seguidos por un sistema de flujo de trabajo.</p>
-				<p>Permite generar procesos de registración, validación, auditoría y pago de las prácticas médicas y/o provisiones de prótesis, insumos y/o medicamentos realizados en línea y tiempo real, en lo relativo a las prestaciones de Alta Complejidad.</p>
+				<p>Nuestras soluciones integran y conectan a toda la Red de Prestadores, reduciendo los costos prestacionales y asegurando la máxima interoperabilidad con sistemas pre-existentes. Integramos a todos los actores de la industria, mejoramos la experiencia del paciente y generamos valor compartiendo información real para la toma de decisiones.</p>
 			</article>
 			<article class="other-solution">
 				<h2 class="title-with-line-purple">Centro exclusivo de atención al prestador</h2>

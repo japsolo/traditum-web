@@ -6,19 +6,19 @@
 			<ul class="locations-list">
 				<li>
 					<h4>BUENOS AIRES</h4>
-					<p>Tel.: 3220-7202 - info@traditum.com</p>
+					<p>Tel.: (+54 11) 3220 7200 - info@traditum.com</p>
 				</li>
 				<li>
 					<h4>CÓRDOBA</h4>
-					<p>Tel.:3220-7202 - cnrodriguez@traditum.com </p>
+					<p>Tel.: (+54 11) 3220 7200 - info.cordoba@traditum.com</p>
 				</li>
 				<li>
 					<h4>MISIONES</h4>
-					<p>Tel.: 3220-7202 - emontiveros@traditum.com</p>
+					<p>Tel.: (+54 11) 3220 7200 - info.misiones@traditum.com</p>
 				</li>
 				<li>
 					<h4>SANTA CRUZ</h4>
-					<p>Tel.: 3220-7202 - amendieta@traditum.com</p>
+					<p>Tel.: (+54 11) 3220 7200 - info.santacruz@traditum.com</p>
 				</li>
 			</ul>
 		</div>

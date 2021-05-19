@@ -30,7 +30,7 @@
 
 				<p>Nuestros valores más destacados están apoyados en el servicio y el vínculo cercano que generamos con nuestros clientes a la hora del relevamiento y el diagnóstico de un producto personalizado.</p>
 
-				<p>Para atender las necesidades de todos nuestros prestadores conectados, creamos un exclusivo Centro de Atención al Prestador para el soporte y capacitación de toda nuestra red prestacional 0810 222 122 - prestadores@traditum.com</p>
+				<p>Para atender las necesidades de todos nuestros prestadores conectados, creamos un exclusivo Centro de Atención al Prestador para el soporte y capacitación de toda nuestra red prestacional 0810 222 1122 - prestadores@traditum.com</p>
 
 				<p>Y para las financiadoras con necesidades de adaptar infraestructuras, contamos con un Departamento especializado en Tecnologías de la Información especialmente enfocado en la industria de la salud.</p>
 
@@ -38,7 +38,7 @@
 			</article>
 			<article class="about-years">
 				<img src="assets/images/icons/icon-17-years.svg" alt="ícono 17 años de traditum">
-				<p>De experiencia, articulando la red de prestadores más grande del país.</p>
+				<p>Articulando la red de prestadores más grande del país.</p>
 			</article>
 		</section>
 

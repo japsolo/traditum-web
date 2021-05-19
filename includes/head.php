@@ -27,6 +27,17 @@
 
 	<!-- FontAwesome -->
 	<script src="https://kit.fontawesome.com/703ba68551.js" crossorigin="anonymous"></script>
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-70836257-7"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-70836257-7');
+    </script>
+
 </head>
 
 <body>

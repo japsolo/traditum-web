@@ -28,7 +28,7 @@
 				<li><a href="<?= isset($isHome) && $isHome ? '#it' : 'index.php#it' ?>" class="<?= isset($isHome) && $isHome ? 'page-scroll' : null ?>">Servicios IT</a></li>
 				<li><a href="#contact-us" class="link-rounded page-scroll">Contacto</a></li>
 				<li>
-					<a href="https://www.traditum.com/NEO%20TDM%20Canal%20IT/View/Login.aspx" class="link-rounded bg-blue" target="_blank">
+					<a href="<?php echo getenv("LoginURL"); ?>" class="link-rounded bg-blue" target="_blank">
 						Ingreso a Prestadores
 						<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
 							<g>
