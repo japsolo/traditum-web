@@ -17,12 +17,7 @@
 				<li><a href="#">Sistema de Gestión Prestacional</a></li>
 			</ul>
 
-			<ul class="social-media-anchors">
-				<li><a href="https://www.facebook.com/Traditum-113803560082000/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-				<li><a href="https://www.linkedin.com/company/traditum-sa/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-				<li><a href="https://twitter.com/TraditumSA" target="_blank"><i class="fab fa-twitter"></i></a></li>
-				<li><a href="https://www.instagram.com/traditumsa/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-			</ul>
+			<?php require 'includes/socialMedia.php'; ?>
 		</header>
 
 		<!-- Solution-Content -->
@@ -95,6 +90,18 @@
 				<li>
 					<h2>Reportes</h2>
 					<p>Generación de reportes múltiples que consolidan los datos de la operatoria y usabilidad.</p>
+				</li>
+				<li>
+					<h2>Prescripción electrónica</h2>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto soluta, aperiam, et quibusdam.</p>
+				</li>
+				<li>
+					<h2>Validación en farmacias</h2>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto soluta, aperiam, et quibusdam.</p>
+				</li>
+				<li>
+					<h2>Censo de internación</h2>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto soluta, aperiam, et quibusdam.</p>
 				</li>
 			</ul>
 

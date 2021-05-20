@@ -148,7 +148,7 @@
 				color: #787878
 
 .link-rounded
-	padding: 0.6em 1.6em 0.8em !important
+	padding: 0.6em 1.2em 0.8em !important
 	border-radius: 30px
 	color: lighten($darkPurple, 25)
 	box-shadow: 0 0 8px rgba(#000000, 0.2)
@@ -455,6 +455,8 @@
 		height: auto
 		max-width: 400px
 		opacity: 0.9
+	&.sgp-img
+		right: 0
 
 .solution-content
 	color: #ffffff
@@ -637,10 +639,14 @@
 	padding: 30px 15px
 	color: #9f9f9f
 	h2
-		font-size: 1.8em
+		font-size: 1.9em
 		font-weight: normal
+		padding-top: 1.5rem
+		margin-bottom: 0
 	p
-		font-size: 1.8em
+		font-size: 1.7em
+		margin: 0.5em 0
+
 
 .map-box
 	background-color: #DBDBDB
@@ -661,6 +667,7 @@
 			margin: 0
 		p
 			font-size: 1.5em
+			margin: 0.3em 0
 		&::before
 			content: ''
 			width: 22px
@@ -679,7 +686,7 @@
 			position: absolute
 			left: 4px
 			top: 6px
-		@each $n, $c in (1: $darkPurple, 2: $blue, 3: $lightGreen, 4: #777777)
+		@each $n, $c in (1: $darkPurple, 2: $blue, 3: $lightGreen, 4: #777777, 5: $lightBlue)
 			&:nth-child(#{$n})
 				h4
 					color: $c

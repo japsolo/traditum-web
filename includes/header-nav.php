@@ -20,11 +20,13 @@
 					<!-- drop-nav -->
 					<ul class="drop-nav" <?= isset($isHome) && $isHome ? 'data-drop="home"' : null ?>>
 						<li><a href="sistema-gestion-prestacional.php"><span>Sistema de gestión prestacional</span></a></li>
+						<li><a href="credencial-digital.php"><span>Credencial Digital - App Móvil</span></a></li>
 						<li><a href="plataforma-validacion-odontologica.php"><span>Plataforma de validación odontológica</span></a></li>
 						<li><a href="plataforma-internacion-domiciliaria.php"><span>Plataforma de internación domiciliaria</span></a></li>
 						<li><a href="sistema-activador-recuperos.php"><span>Sistema activador de recuperos</span></a></li>
 					</ul>
 				</li>
+				<li data-link="press"><a href="notas-prensa.php">Notas de prensa</a></li>
 				<li><a href="<?= isset($isHome) && $isHome ? '#it' : 'index.php#it' ?>" class="<?= isset($isHome) && $isHome ? 'page-scroll' : null ?>">Servicios IT</a></li>
 				<li><a href="#contact-us" class="link-rounded page-scroll">Contacto</a></li>
 				<li>

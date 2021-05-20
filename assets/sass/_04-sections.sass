@@ -5,6 +5,7 @@
 	padding-top: 70px
 	.social-media-anchors
 		justify-content: flex-end
+		padding: 1rem 0
 		li
 			&:last-child
 				margin-right: 0
@@ -425,3 +426,52 @@
 				position: absolute
 				left: -40px
 				top: 10px
+
+
+/*=== Press ===*/
+.press-wrap
+	margin: 0 -15px
+	padding-bottom: 4rem
+
+.press-title
+	font: normal 2.6em $compFont
+	color: #777777
+
+.press-box
+	margin: 0 0 7rem
+
+.news
+	&-image
+		box-shadow: -8px -8px 0 $lightGreen
+		max-width: 370px
+		margin: auto
+	&-title
+		color: $blue
+		font: normal 2em $altFont
+		position: relative
+		padding-top: 1rem
+		&::before
+			content: ''
+			display: block
+			width: 40px
+			height: 3px
+			background-color: $blue
+			position: absolute
+			left: 0
+			top: 0
+	&-description
+		font-size: 1.6em
+		line-height: 1.5
+		color: #777777
+	&-cta
+		color: $darkPurple
+		font-size: 1.5em
+		border: 1px solid
+		padding: .8rem 1.5rem
+		border-radius: 5rem
+		+flex($ai: center, $df: inline-flex)
+		&:not(:last-of-type)
+			margin-right: 1rem
+		img
+			width: 20px
+			margin-left: 1rem

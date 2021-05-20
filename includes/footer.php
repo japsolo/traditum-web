@@ -20,6 +20,10 @@
 					<h4>SANTA CRUZ</h4>
 					<p>Tel.: (+54 11) 3220 7200 - info.santacruz@traditum.com</p>
 				</li>
+				<li>
+					<h4>SALTA</h4>
+					<p>Tel.: (+54 11) 3220 7200 - info.salta@traditum.com</p>
+				</li>
 			</ul>
 		</div>
 	</div>
@@ -29,13 +33,8 @@
 </footer>
 
 <div class="container footer-close">
-	<ul class="social-media-anchors">
-		<li><a href="https://www.facebook.com/Traditum-113803560082000/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-		<li><a href="https://www.linkedin.com/company/traditum-sa/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-		<li><a href="https://twitter.com/TraditumSA" target="_blank"><i class="fab fa-twitter"></i></a></li>
-		<li><a href="https://www.instagram.com/traditumsa/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-	</ul>
-	<p>Traditum - Todos los derechos reservados © 2019</p>
+	<?php require 'socialMedia.php'; ?>
+	<p>Traditum - Todos los derechos reservados © <span id="actualYear"></span></p>
 	<img src="assets/images/img-brands-footer.jpg" alt="logos del footer">
 </div>
 

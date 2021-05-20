@@ -147,18 +147,36 @@
 	</div>
 
 	<!-- SOLUTIONS -->
-	<div class="solution-wrapper" id="sgp">
+	<div class="solution-wrapper inverted" id="sgp">
 		<div class="solution-box-half-size bg-green">
 			<article class="solution-content">
 				<h2>Sistema de Gestión Prestacional</h2>
 				<p>Nuestra Plataforma de Gestión Prestacional CONECTA a toda la Red de Prestadores, permite VALIDAR en línea todas las prestaciones brindadas y CERTIFICAR LA COBERTURA del afiliado en TIEMPO REAL.</p>
 				<a href="sistema-gestion-prestacional.php" class="btn btn-outline-white">VER MÁS</a>
 			</article>
-			<img src="assets/images/img-home-solution-SGP-person.png" alt="Doctora sosteniendo una tablet" class="img-solution-person right">
+			<img src="assets/images/img-home-solution-SGP-person.png" alt="Doctora sosteniendo una tablet" class="img-solution-person sgp-img">
+		</div>
+		<div class="solution-box-half-size bg-gray image-right">
+			<a href="sistema-gestion-prestacional.php">
+				<img src="assets/images/img-home-solution-SGP.png" alt="Sistema de Gestión Prestacional" class="img-solution-home-sgp">
+			</a>
+		</div>
+	</div>
+	
+	<div class="solution-wrapper" id="appMobile">
+		<div class="solution-box-half-size bg-purple">
+			<article class="solution-content">
+				<h2>Credencial Digital <br> Billetera virtual</h2>
+				<p>Ahora tus afiliados podrán acceder a todos los  servicios de una forma más simple, realizar todas sus gestiones y pagos desde un solo lugar: </p>
+
+				<p>REDENCIAL DIGITAL, BILLETERA VIRTUAL, CARTILLA DE PRESTADORES, HISTORIAL DE ATENCIÓN, PRESCRIPCIÓN ELECTRÓNICA Y TURNOS ON-LINE.</p>
+				<a href="credencial-digital.php" class="btn btn-outline-white">VER MÁS</a>
+			</article>
+			<img src="assets/images/img-home-credencial-digital.png" alt="Persona sosteniendo un teléfono móvil" class="img-solution-person left mobile-app-img">
 		</div>
 		<div class="solution-box-half-size bg-gray with-image">
 			<a href="sistema-gestion-prestacional.php">
-				<img src="assets/images/img-home-solution-SGP.png" alt="Sistema de Gestión Prestacional" class="img-solution-home-sgp">
+				<img src="assets/images/img-home-app-credencial-digital.png" alt="Sistema de Gestión Prestacional" class="img-solution-home-sgp">
 			</a>
 		</div>
 	</div>
@@ -223,11 +241,11 @@
 				<p>Permite generar procesos de registración, validación, auditoría y pago de las prácticas médicas y/o provisiones de prótesis, insumos y/o medicamentos realizados en línea y tiempo real, en lo relativo a las prestaciones de Alta Complejidad.</p>
 			</article>
 			<article class="other-solution">
-				<h2 class="title-with-line-green">Suite de Prestadores</h2>
+				<h2 class="title-with-line-green">Teleconsulta</h2>
 				<figure class="other-solution-image">
 					<img src="assets/images/img-other-solutions_02.jpg" alt="suite de prestadores" data-type="small">
 				</figure>
-				<p>Nuestras soluciones integran y conectan a toda la Red de Prestadores, reduciendo los costos prestacionales y asegurando la máxima interoperabilidad con sistemas pre-existentes. Integramos a todos los actores de la industria, mejoramos la experiencia del paciente y generamos valor compartiendo información real para la toma de decisiones.</p>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam asperiores culpa, consequuntur, hic aut, id ipsum maxime quod eos animi dolore? Impedit est sapiente error, maiores atque necessitatibus repudiandae? Excepturi! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae fuga blanditiis consequatur ipsum.</p>
 			</article>
 			<article class="other-solution">
 				<h2 class="title-with-line-purple">Centro exclusivo de atención al prestador</h2>

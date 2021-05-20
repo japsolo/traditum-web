@@ -1,0 +1,37 @@
+[
+	{
+		"image": "img-1-notas-prensa.jpg",
+		"title": "Traditum presenta nueva aplicación móvil para una mejor atención médica",
+		"description": "Traditum, empresa nacional especializada en el desarrollo de soluciones tecnológicas aplicadas a la medicina, presenta un nuevo sistema que simplifica la identificación y la consulta médica a través de credenciales digitales para los afiliados de diferentes prestadores. La nueva aplicación móvil otorga garantías al prestador mediante la generación de un Token de seguridad y la posibilidad al afiliado de calificar su atención por parte del profesional que lo atendió...",
+		"file": "nota_01",
+		"url": "https://www.iproup.com/economia-digital/18090-traditum-presenta-aplicacion-movil-para-una-mejor-atencion-medica"
+	},
+	{
+		"image": "img-2-notas-prensa.jpg",
+		"title": "“Llegar a todo el país con atención médica a través de la tecnología será el mayor desafío de 2021”",
+		"description": "En diálogo con Telemedicina – Salud en línea, Mariana de Dios, directora Comercial y accionista de Traditum, reconoció que el mayor desafío que afrontó en lo personal fue comenzar a trabajar en una industria tradicionalmente masculina como es la dedicada a la tecnología. Aseguró que la irrupción de la pandemia encontró a Traditum preparada para adaptarse a la nueva realidad y continuar trabajando con normalidad, y señaló que la compañía estuvo...",
+		"file": "nota_02",
+		"url": "https://saludenlinea.com.ar/2021/01/08/llegar-a-todos-los-rincones-del-pais-con-atencion-medica-a-traves-de-la-tecnologia-sera-el-mayor-desafio-de-2021/"
+	},
+	{
+		"image": "img-3-notas-prensa.jpg",
+		"title": "Los afiliados al IPS tienen su credencial digital",
+		"description": "El Gobernador encabezó el acto de presentación de la aplicación que facilitará el acceso a los servicios de la obra social provincial mediante el escaneo de un código QR. “Es un orgullo dar hoy este puntapié inicial que muestra la firme voluntad del Gobierno de acompañar a los afiliados”, indicó el mandatario. Con la nueva aplicación se facilitará el acceso a los servicios de la obra social provincial, mejorando la interacción entre afiliado/prestador y permitiendo un mayor control y seguridad en las operatorias. Por ello Sáenz destacó...",
+		"file": "nota_03",
+		"url": "https://www.salta.gob.ar/prensa/noticias/los-afiliados-al-ips-desde-hoy-tienen-su-credencial-digital-73879"
+	},
+	{
+		"image": "img-4-notas-prensa.jpg",
+		"title": "Sistemas tecnológicos que agilizan la gestión y atención médica",
+		"description": "Traditum presenta nuevas herramientas que permiten saber si el paciente puede recibir la prestación, su registro y autorización, todo de manera online sin tramites extras. Traditum, empresa nacional especializada en el desarrollo de soluciones tecnológicas aplicadas a la medicina, presenta las nuevas herramientas de su Sistema de Gestión Prestacional que permite articular y conectar la red de prestadores médicos y pacientes. La plataforma admite validar las prácticas médicas y certificar la cobertura del afiliado en tiempo real...",
+		"file": "nota_04",
+		"url": "https://www.ambito.com/negocios/paciente/sistemas-tecnologicos-que-agilizan-la-gestion-y-atencion-medica-n5119417"
+	},
+	{
+		"image": "img-5-notas-prensa.jpg",
+		"title": "Traditum desarrolló sistema para facilitar la compra de medicamentos",
+		"description": "En diálogo con Telemedicina – Salud en línea, Mariana de Dios, directora Comercial y accionista de Traditum, reconoció que el mayor desafío que afrontó en lo personal fue comenzar a trabajar en una industria tradicionalmente masculina como es la dedicada a la tecnología. Aseguró que la irrupción de la pandemia encontró a Traditum preparada para adaptarse a la nueva realidad y continuar trabajando con normalidad, y señaló que la compañía estuvo...",
+		"file": "nota_05",
+		"url": "https://saludenlinea.com.ar/2020/07/01/traditum-desarrollo-sistema-para-facilitar-la-compra-de-medicamentos/"
+	}
+]

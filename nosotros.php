@@ -92,7 +92,7 @@
 		});
 		
 		// Actual Link
-		setActualLink('home');
+		setActualLink('about');
 	</script>
 
 </body>

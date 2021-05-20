@@ -156,7 +156,7 @@ btnShowContactForm.addEventListener('click', function () {
 // Set the href in drop-nav anchors - Only home
 if (dropNav.hasAttribute('data-drop')) {
 	const dropNavAnchors = Array.from(dropNav.querySelectorAll('a'));
-	const sectionsIds = ['sgp', 'pvo', 'pid', 'sar'];
+	const sectionsIds = ['sgp', 'appMobile', 'pvo', 'pid', 'sar'];
 	dropNavAnchors.forEach((anchor, i) => {
 		anchor.setAttribute('href', `#${sectionsIds[i]}`);
 		anchor.setAttribute('class', 'page-scroll');
@@ -214,3 +214,7 @@ if (btnCallToAction !== null) {
 		}, 4);
 	});
 }
+
+// Set actual year
+let year = new Date().getFullYear();
+document.querySelector('#actualYear').innerText = year;
