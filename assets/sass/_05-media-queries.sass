@@ -79,7 +79,8 @@
 		border-width: 15px
 
 	.sgp-benefits-list,
-	.pid-benefits-list
+	.pid-benefits-list,
+	.app-benefits-list
 		p
 			font-size: 1.8em
 
@@ -211,7 +212,8 @@
 			width: 33%
 
 	.pvo-special-list,
-	.pid-benefits-list
+	.pid-benefits-list,
+	.app-benefits-list
 		+flex($ai: flex-start, $jc: space-between)
 		li
 			width: 32%
@@ -251,6 +253,11 @@
 			padding-right: 10px
 		ul
 			width: percentage(660 / $baseWidth)
+	
+	.app-why
+		&-img
+			display: block
+			margin: auto
 
 
 
@@ -374,13 +381,20 @@
 		margin-left: auto
 		margin-right: auto
 
-	.sgp-benefits-list
+	.sgp-benefits-list,
+	.app-benefits-list
 		justify-content: center
 		li
 			width: 25%
 			&:last-child
 				margin-left: 0
 				margin-right: 0
+	
+	.app-benefits-list
+		p
+			padding: 0
+			line-height: 1.7
+			margin-bottom: 0
 
 	.purple-title
 		font-size: 3.3em
@@ -416,6 +430,16 @@
 		&-cta
 			margin-left: 1rem
 			font-size: 1.6em
+	
+	.app-why
+		&-container
+			+flex($ai: flex-start, $jc: space-evenly)
+		&-img
+			margin: 0
+			width: percentage(590 / 1200)
+		&-list
+			width: percentage(350 / 1200)
+
 
 
 

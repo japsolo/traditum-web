@@ -91,11 +91,13 @@
 .inside-solution-intro_color-box
 	position: relative
 	text-align: right
-	$colors: ('green': $lightGreen, 'blue': $blue, 'purple': lighten($darkPurple, 20))
+	$colors: ('green': $lightGreen, 'blue': $blue, 'purple': lighten($darkPurple, 20), 'light-purple': #c861ae)
 	@each $name, $color in $colors
 		&.bg-#{$name}
 			background-color: $color
 			border-color: lighten($color, 30)
+			@if $name == 'light-purple'
+				text-align: left
 	&.no-absolute
 		text-align: center
 		padding: 30px
@@ -236,6 +238,7 @@
 
 .sgp-benefits-list,
 .pid-benefits-list,
+.app-benefits-list
 	+flex
 	li
 		width: 50%
@@ -250,6 +253,75 @@
 		padding: 0 15px
 		span
 			color: $darkPurple
+
+
+/*=== APP-AFILIADOS ===*/
+.credential-list
+	li
+		margin-top: 3rem
+		+flex($ai: flex-start)
+		span
+			width: calc(100% - 80px)
+			font-size: 1.7em
+			line-height: 1.6
+			color: #A4A4A4
+			padding-left: 1.2rem
+
+.app-inside-section-container
+	margin-top: 150px
+	h2
+		text-align: center
+		color: #585859
+		font: normal 2.6em $baseFont
+
+.app-benefits-list
+	li
+		&:last-child
+			margin-right: 0
+			margin-left: 0
+			
+.app-why
+	&-container
+		margin-top: 8rem
+	&-list
+		li
+			margin-bottom: 3rem
+		h3
+			color: $darkPurple
+			font: normal 1.6em $baseFont
+			margin-bottom: 0
+			span
+				width: 27px
+				height: 27px
+				background-color: #c861ae
+				border-radius: 100%
+				vertical-align: middle
+				margin-right: 0.5rem
+				color: #ffffff
+				transform: translateY(-2px)
+				font-size: 1.2rem
+				+flex($ai: center, $jc: center, $df: inline-flex)
+		p
+			color: #a4a4a4
+			font-size: 1.6em
+			line-height: 1.4
+			margin-top: 1rem
+
+.app-cta
+	text-align: center
+	margin: 9rem 0
+	h2
+		font: normal 2.8em $baseFont
+		color: #666666
+		span
+			color: $darkPurple
+	a
+		display: inline-block
+		color: $darkPurple
+		font-size: 1.5em
+		padding: 0.8em 2em
+		border-radius: 2em
+		border: 1px solid currentColor
 
 
 /*=== PVO ===*/

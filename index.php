@@ -166,7 +166,7 @@
 	<div class="solution-wrapper" id="appMobile">
 		<div class="solution-box-half-size bg-purple">
 			<article class="solution-content">
-				<h2>Credencial Digital <br> Billetera virtual</h2>
+				<h2>Credencial digital <br> App afiliados</h2>
 				<p>Ahora tus afiliados podrán acceder a todos los  servicios de una forma más simple, realizar todas sus gestiones y pagos desde un solo lugar: </p>
 
 				<p>REDENCIAL DIGITAL, BILLETERA VIRTUAL, CARTILLA DE PRESTADORES, HISTORIAL DE ATENCIÓN, PRESCRIPCIÓN ELECTRÓNICA Y TURNOS ON-LINE.</p>
