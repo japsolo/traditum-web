@@ -106,7 +106,7 @@
 					<ul class="app-why-list">
 						<li>
 							<h3><span><i class="fas fa-check"></i></span>ES PRÁCTICA</h3>
-							<p>Con su credencial digital evita la impresión física y su reposición.</p>
+							<p>Con la credencial digital evita la impresión física y su reposición.</p>
 						</li>
 						<li>
 							<h3><span><i class="fas fa-check"></i></span>ES SEGURA</h3>

@@ -169,7 +169,7 @@
 				<h2>Credencial digital <br> App afiliados</h2>
 				<p>Ahora tus afiliados podrán acceder a todos los  servicios de una forma más simple, realizar todas sus gestiones y pagos desde un solo lugar: </p>
 
-				<p>REDENCIAL DIGITAL, BILLETERA VIRTUAL, CARTILLA DE PRESTADORES, HISTORIAL DE ATENCIÓN, PRESCRIPCIÓN ELECTRÓNICA Y TURNOS ON-LINE.</p>
+				<p>CREDENCIAL DIGITAL, BILLETERA VIRTUAL, CARTILLA DE PRESTADORES, HISTORIAL DE ATENCIÓN, PRESCRIPCIÓN ELECTRÓNICA Y TURNOS ON-LINE.</p>
 				<a href="credencial-digital.php" class="btn btn-outline-white">VER MÁS</a>
 			</article>
 			<img src="assets/images/img-home-credencial-digital.png" alt="Persona sosteniendo un teléfono móvil" class="img-solution-person left mobile-app-img">
@@ -241,11 +241,12 @@
 				<p>Permite generar procesos de registración, validación, auditoría y pago de las prácticas médicas y/o provisiones de prótesis, insumos y/o medicamentos realizados en línea y tiempo real, en lo relativo a las prestaciones de Alta Complejidad.</p>
 			</article>
 			<article class="other-solution">
-				<h2 class="title-with-line-green">Teleconsulta</h2>
+				<h2 class="title-with-line-green">Suite de Prestadores</h2>
 				<figure class="other-solution-image">
 					<img src="assets/images/img-other-solutions_02.jpg" alt="suite de prestadores" data-type="small">
 				</figure>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam asperiores culpa, consequuntur, hic aut, id ipsum maxime quod eos animi dolore? Impedit est sapiente error, maiores atque necessitatibus repudiandae? Excepturi! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae fuga blanditiis consequatur ipsum.</p>
+				<p>Un sistema que ofrece una solución única donde los procesos vinculados a los Expedientes pueden ser seguidos por un sistema de flujo de trabajo.</p>
+				<p>Permite generar procesos de registración, validación, auditoría y pago de las prácticas médicas y/o provisiones de prótesis, insumos y/o medicamentos realizados en línea y tiempo real, en lo relativo a las prestaciones de Alta Complejidad.</p>
 			</article>
 			<article class="other-solution">
 				<h2 class="title-with-line-purple">Centro exclusivo de atención al prestador</h2>

@@ -48,7 +48,7 @@
 				</li>
 				<li>
 					<img src="assets/images/icons/icon-SGP_02.svg" alt="ícono de un posnet">
-					<span>POS <br> (Point Of Sale)</span>
+					<span>APP Móvil <br> (Credencial digital)</span>
 				</li>
 				<li>
 					<img src="assets/images/icons/icon-SGP_03.svg" alt="ícono de un celular">
@@ -69,7 +69,7 @@
 			<ul class="sgp-bi-list">
 				<li>
 					<h2>Credencial Digital</h2>
-					<p>Una APP para autenticar la identidad del afiliado y evitar falsificaciones al momento de la validación.</p>
+					<p>Una App para acreditar la identidad del afiliado y brindar mayor seguridad al momento de la validación.</p>
 				</li>
 				<li>
 					<h2>Elegibilidad</h2>
@@ -93,15 +93,15 @@
 				</li>
 				<li>
 					<h2>Prescripción electrónica</h2>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto soluta, aperiam, et quibusdam.</p>
+					<p>Un formulario web que permite la prescripción electrónica de estudios, indicaciones, prácticas y medicamentos.</p>
 				</li>
 				<li>
 					<h2>Validación en farmacias</h2>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto soluta, aperiam, et quibusdam.</p>
+					<p>Un módulo dentro del sistema de validación, que permite el registro de la dispensa de medicamentos según el Vademécum definido por cada financiadora.</p>
 				</li>
 				<li>
 					<h2>Censo de internación</h2>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto soluta, aperiam, et quibusdam.</p>
+					<p>Una función que permite denunciar el ingreso y egreso de afiliados internados en los Centros Médicos. Como también la carga de prácticas de permanencia con la autorización en línea.</p>
 				</li>
 			</ul>
 

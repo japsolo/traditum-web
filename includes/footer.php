@@ -28,7 +28,7 @@
 		</div>
 	</div>
 	<div class="map-box">
-		<img src="assets/images/img-footer-map.jpg" alt="mapa ubicación oficinas traditum">
+		<img src="assets/images/img-footer-map.png" alt="mapa ubicación oficinas traditum">
 	</div>
 </footer>
 
