@@ -35,6 +35,7 @@
 <div class="container footer-close">
 	<?php require 'socialMedia.php'; ?>
 	<p>Traditum - Todos los derechos reservados © <span id="actualYear"></span></p>
+	<p>CENTRO DE ATENCIÓN AL PRESTADOR <a href="tel:+5408102221122" rel="nofollow noopener noreferrer">0810-222-1122</a></p>
 	<img src="assets/images/img-brands-footer.jpg" alt="logos del footer">
 </div>
 

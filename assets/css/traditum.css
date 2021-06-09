@@ -1096,6 +1096,8 @@ body {
   margin-right: auto; }
   .contact-form-box p span {
     color: #A91F8E; }
+    .contact-form-box p span a {
+      color: currentColor; }
 
 .form-box {
   margin-top: 45px;
@@ -1914,9 +1916,10 @@ textarea.form-control {
     .other-solution:last-of-type {
       width: 100%; }
   .footer-close {
-    flex-direction: row; }
+    flex-direction: row;
+    justify-content: space-between; }
     .footer-close img {
-      margin-left: auto; }
+      margin-left: 0; }
     .footer-close .social-media-anchors li:first-child {
       margin-left: 0; }
   .main-footer {
@@ -2133,8 +2136,9 @@ textarea.form-control {
     flex-wrap: wrap;
     flex-direction: row; }
   .footer-close p {
-    margin: 0;
-    margin-left: 10px; }
+    margin: 0; }
+    .footer-close p a {
+      color: #0083C1; }
   .sgp-channels-list {
     justify-content: space-between;
     max-width: 920px;
