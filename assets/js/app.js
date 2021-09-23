@@ -185,7 +185,6 @@ window.addEventListener('load', () => {
 		const closeVideo = () => {
 			overlayVideo.classList.remove('show');
 			video.pause();
-			video.currentTime = 0;
 		};
 
 		btnPlayVideoSGP.addEventListener('click', e => {
@@ -195,7 +194,6 @@ window.addEventListener('load', () => {
 		});
 
 		overlayVideo.addEventListener('click', closeVideo);
-
 		btnCloseVideoSGP.addEventListener('click', closeVideo);
 	}
 

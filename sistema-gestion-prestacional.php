@@ -163,7 +163,7 @@
 	<!-- Video-Overlay -->
 	<div class="overlay" id="video-sgp">
 		<div class="overlay-content">
-			<video preload="auto" poster="assets/images/bg-video-sgp.jpg" src="assets/videos/sistema-gestion-prestaciona.mp4" controls width="100%"></video>
+			<video preload="auto" poster="assets/images/bg-video-sgp.jpg" src="assets/videos/sistema-gestion-prestacional.mp4" controls width="100%"></video>
 			<button type="button" class="btn-close-video"><i class="fas fa-times-circle"></i></button>
 		</div>
 	</div>
